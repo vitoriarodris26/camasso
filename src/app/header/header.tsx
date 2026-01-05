@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { ROUTES } from "@/lib/routes";
-import { NavBar } from "./components/nav-bar";
+import  NavBar  from "./components/nav-bar";
 
 export default function Header() {
   return (
