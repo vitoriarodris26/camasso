@@ -2,9 +2,10 @@
 "use client";
 
 import { Download, FileText, MonitorDown, Settings2 } from "lucide-react";
-import { Header } from "../header/header";
-import { Footer } from "@/components/footer";
-import { Hero } from "@/components/hero";
+import Header from "../header/header";
+import Hero from "@/components/hero";
+import Footer from "@/components/footer";
+
 
 const DRIVERS = [
   { id: 1, title: "Print Utility", size: "12 MB", url: "/downloads/print-utility.exe" },

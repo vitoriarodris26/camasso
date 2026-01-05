@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { ChevronDown, MessageCircle } from 'lucide-react';
+import { ChevronDown } from 'lucide-react';
 import { SERVICOS_CAMASSO } from './services-data';
 
 export default function HeroActivities() {

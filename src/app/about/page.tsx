@@ -1,9 +1,5 @@
 import Image from "next/image";
-import { Footer } from "@/components/footer";
-import { Eye, Heart, Link, Target } from "lucide-react";
-import { ROUTES } from "@/lib/routes";
-import { Header } from "../header/header";
-import { Hero } from "@/components/hero";
+import { Eye, Heart,  Target } from "lucide-react";
 
 
 export const metadata = {

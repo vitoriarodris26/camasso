@@ -1,9 +1,9 @@
-import { Assistance } from "@/components/assistense";
-import { Footer } from "@/components/footer";
-import { Hero } from "@/components/hero";
-import { Products } from "./products/page";
+import Footer from "@/components/footer";
+import Assistance from "@/components/assistense";
+import Header from "./header/header";
+import Products from "./products/page";
+import Hero from "@/components/hero";
 import About from "./about/page";
-import { Header } from "./header/header";
 
 
 export default function Home() {

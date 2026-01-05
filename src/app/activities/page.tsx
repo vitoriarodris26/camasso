@@ -2,11 +2,10 @@
 
 import { useState } from "react";
 import { X, ExternalLink, MessageCircle, ChevronDown } from "lucide-react";
-import { Header } from "../header/header";
-import { Footer } from "@/components/footer";
-import { HeroActivities } from "../servicos-informacoes/hero";
-import { SERVICOS_CAMASSO } from "../servicos-informacoes/services-data";
 
+import { SERVICOS_CAMASSO } from "../servicos-informacoes/services-data";
+import Header from "../header/header";
+import HeroActivities from "../servicos-informacoes/hero";
 
 export default function Activities() {
   const [filter, setFilter] = useState("todos");

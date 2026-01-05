@@ -2,10 +2,10 @@
 
 import { useState } from "react";
 import { Download, Search, FileText } from "lucide-react";
-import { Header } from "../header/header";
-import { Footer } from "@/components/footer";
+
 import { CATALOGOS_DATA } from "./catalog-data";
-import { Hero } from "@/components/hero";
+import Header from "../header/header";
+import Hero from "@/components/hero";
 
 
 export default function Catalogos() {
