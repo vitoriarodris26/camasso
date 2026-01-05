@@ -1,16 +1,18 @@
+import type { NextConfig } from "next";
 
-const nextConfig = {
-  devIndicators: {
-    appIsrStatus: false, 
-    buildActivity: false, 
-  },
+const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
       {
         protocol: 'https',
         hostname: 'images.unsplash.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'www.rodri.io',
+      },
     ],
   },
 };
+
 export default nextConfig;
