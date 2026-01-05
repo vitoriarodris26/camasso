@@ -6,6 +6,7 @@ import { Download, Search, FileText } from "lucide-react";
 import { CATALOGOS_DATA } from "./catalog-data";
 import Header from "../header/header";
 import Hero from "@/components/hero";
+import Footer from "@/components/footer";
 
 
 export default function Catalogos() {
