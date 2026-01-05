@@ -6,6 +6,7 @@ import { X, ExternalLink, MessageCircle, ChevronDown } from "lucide-react";
 import { SERVICOS_CAMASSO } from "../servicos-informacoes/services-data";
 import Header from "../header/header";
 import HeroActivities from "../servicos-informacoes/hero";
+import Footer from "@/components/footer";
 
 export default function Activities() {
   const [filter, setFilter] = useState("todos");
