@@ -6,7 +6,7 @@ import { NAV_LINKS } from "@/lib/routes";
 
 const navLinks = NAV_LINKS;
 
-export function NavBar() {
+export default function NavBar() {
   const pathname = usePathname();
 
   return (

@@ -3,7 +3,7 @@ import { useState } from "react";
 import { ChevronDown, MessageCircle } from 'lucide-react';
 import { SERVICOS_CAMASSO } from './services-data';
 
-export function HeroActivities() {
+export default function HeroActivities() {
   const [filter, setFilter] = useState("todos");
 
   const filtered = filter === "todos" 

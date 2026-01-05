@@ -1,7 +1,7 @@
 import React from 'react';
 import { Headset, ShieldCheck, HelpCircle } from "lucide-react";
 
-export function Assistance() {
+export default function Assistance() {
   const items = [
     { icon: ShieldCheck, title: "Garantia", desc: "A proteção da política de garantia local e fornecida", active: false },
     { icon: Headset, title: "Assistência ao cliente", desc: "Fale conosco via live-chat, email ou por telefone", active: false },

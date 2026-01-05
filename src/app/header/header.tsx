@@ -3,7 +3,7 @@ import Image from "next/image";
 import { ROUTES } from "@/lib/routes";
 import { NavBar } from "./components/nav-bar";
 
-export function Header() {
+export default function Header() {
   return (
     <header className="fixed top-0 z-50 w-full px-4 py-4 opacity-0 animate-[fadeIn_1s_ease-in-out_0.2s_forwards]">
       <div className="container mx-auto flex items-center justify-between h-16 px-6 rounded-full bg-white/80 backdrop-blur-md border border-white/20 shadow-lg shadow-black/5">

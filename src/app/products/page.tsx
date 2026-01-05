@@ -7,7 +7,7 @@ import { useRouter } from "next/navigation";
 import { ROUTES } from "@/lib/routes";
 import { categoriesList, CategoryData, productsContent } from "./products-data";
 
-export function Products() {
+export default function Products() {
   const [activeTab, setActiveTab] = useState("Impressoras");
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedProduct, setSelectedProduct] = useState<any>(null);

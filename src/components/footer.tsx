@@ -1,7 +1,7 @@
 import React from 'react';
 import { Facebook, Instagram, Twitter, X } from 'lucide-react';
 
-export function Footer() {
+export default function Footer() {
   return (
     <footer className=" bg-[#edece8] pt-16 pb-8 text-gray-800">
       <div className="container mx-auto px-6 grid md:grid-cols-4 gap-10 mb-12">

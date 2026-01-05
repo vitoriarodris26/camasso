@@ -5,7 +5,7 @@ import { MessageCircle } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 import { ROUTES } from '@/lib/routes';
 
-export function Hero() {
+export default function Hero() {
     const router = useRouter(); 
   return (
     <section className="relative  h-[816] pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
