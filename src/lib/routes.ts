@@ -3,7 +3,7 @@ export const ROUTES = {
   PRODUTOS: "/produtos",
   SERVICOS: "/servicos-informacoes",
   SOBRE: "/#quem-somos",
-  CONTATO: "/contato",
+  CONTATO: "https://wa.me/5511975361817",
   CATALOGO: "/catalog",
   SUPORTE: "/help-desk",
   TRABALHE_CONOSCO: "https://www.linkedin.com/company/camasso/jobs/",

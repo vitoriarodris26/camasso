@@ -8,9 +8,11 @@ import Header from "../header/header";
 import HeroActivities from "../servicos-informacoes/hero";
 import Footer from "@/components/footer";
 
+type Servico = typeof SERVICOS_CAMASSO[0];
+
 export default function Activities() {
   const [filter, setFilter] = useState("todos");
-  const [selectedService, setSelectedService] = useState<any>(null);
+const [selectedService, setSelectedService] = useState<Servico | null>(null);
 
   const filtered = filter === "todos" 
     ? SERVICOS_CAMASSO 

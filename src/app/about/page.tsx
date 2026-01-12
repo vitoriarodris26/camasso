@@ -58,12 +58,12 @@ export default function About() {
 
          
               <div className="grid grid-cols-2 gap-4 pt-6 border-t border-gray-100 max-w-md">
-                <div>
+                 <div>
                   <h4 className="text-3xl font-bold text-green-600">+17</h4>
                   <p className="text-gray-500 text-xs">Anos de mercado</p>
                 </div>
                 <div>
-                  <h4 className="text-3xl font-bold text-green-600">500k+</h4>
+                  <h4 className="text-3xl font-bold text-green-600">+10k</h4>
                   <p className="text-gray-500 text-xs">Produtos mensais</p>
                 </div>
               </div>

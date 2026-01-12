@@ -30,7 +30,7 @@ export default function Activities() {
             <h2 className="text-xl font-bold text-gray-800">Explore nossas soluções</h2>
             <p className="text-sm text-gray-500">Selecione uma categoria para filtrar</p>
           </div>
-          <div className="relative w-full md:w-64">
+          <div className="relative w-full md:w-80">
             <select 
               onChange={(e) => setFilter(e.target.value)}
               className="w-full appearance-none bg-gray-50 border border-gray-200 p-3 px-4 rounded-xl text-gray-700 font-medium focus:ring-2 focus:ring-green-500 outline-none cursor-pointer"

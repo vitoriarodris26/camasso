@@ -1,90 +1,108 @@
 export const CATALOGOS_DATA = [
   {
     id: 1,
-    title: "Impressora GI 2408T",
-    category: "Impressoras",
-    fileUrl: "/catalogos/impressora-gi-2408t.pdf", 
-    thumbnail: "https://www.camasso.com.br/imagens/catalogos/gi-2408t.jpg",
-    size: "1.2 MB"
+    title: "Etiquetas",
+    category: "Etiquetas",
+    fileUrl: "/catalogos/Etiqueta.pdf", 
+    size: "2.349 KB"
   },
   {
-    id: 2,
-    title: "Camasso GA 2408T",
-    category: "Impressoras",
-    fileUrl: "/catalogos/camasso-ga-2408t.pdf",
-    thumbnail: "https://www.camasso.com.br/imagens/catalogos/ga-2408t.jpg",
+    id: 26,
+    title: "Totem Pro Gafil",
+    category: "Totem Pro Gafil",
+    fileUrl: "/catalogos/Totem Pro Gafil.pdf.pdf",
+    size: "1.5 MB"
+  },
+   {
+    id: 27,
+    title: "Totem Smart Gafil",
+    category: "Totem Smart Gafil",
+    fileUrl: "/catalogos/Totem Smart Gafil.pdf",
     size: "1.5 MB"
   },
   {
     id: 3,
-    title: "Camasso GP 1625 / 1625TC",
-    category: "Impressoras",
-    fileUrl: "/catalogos/camasso-gp-1625.pdf",
-    thumbnail: "https://www.camasso.com.br/imagens/catalogos/gp-1625.jpg",
-    size: "2.1 MB"
+    title: "PDV",
+    category: "PDV",
+    fileUrl: "/catalogos/Catalogo PDVs.pdf",
+    size: "1.11.5 KB"
   },
   {
     id: 4,
-    title: "Camasso GP 3200",
-    category: "Impressoras",
-    fileUrl: "/catalogos/camasso-gp-3200.pdf",
-    thumbnail: "https://www.camasso.com.br/imagens/catalogos/gp-3200.jpg",
-    size: "1.1 MB"
+    title: "Pulseira Cartucho",
+    category: "Pulseira Cartucho",
+    fileUrl: "/catalogos/Catalogo Pulseira Cartucho.pdf",
+    size: "871 KB"
   },
   {
     id: 5,
-    title: "Camasso GP M421",
+    title: "Pulseira Classificação",
     category: "Impressoras",
-    fileUrl: "/catalogos/camasso-gp-m421.pdf",
-    thumbnail: "https://www.camasso.com.br/imagens/catalogos/gp-m421.jpg",
-    size: "1.4 MB"
+    fileUrl: "/catalogos/Catalogo Pulseira Classificação em Rolo.pdf",
+    size: "1.392 KB"
   },
   {
     id: 6,
-    title: "Camasso GS 2208D",
-    category: "Impressoras",
-    fileUrl: "/catalogos/camasso-gs-2208d.pdf",
-    thumbnail: "https://www.camasso.com.br/imagens/catalogos/gs-2208d.jpg",
-    size: "980 KB"
+    title: "Pulseira em folhas",
+    category: "Pulseira em folhas",
+    fileUrl: "/catalogos/Catalogo Pulseira em folhas.pdf",
+    size: "1.006 KB"
   },
   {
     id: 7,
-    title: "Pulseiras de Identificação Camasso",
-    category: "Pulseiras",
-    fileUrl: "/catalogos/pulseiras-identificacao.pdf",
-    thumbnail: "https://www.camasso.com.br/imagens/catalogos/pulseiras.jpg",
-    size: "3.4 MB"
+    title: "Pulseira Premium",
+    category: "Pulseira Premium",
+    fileUrl: "/catalogos/Catalogo Pulseira Premium.pdf",
+    size: "916 KB"
   },
   {
     id: 8,
-    title: "Cartucho - Recarga de Pulseiras",
-    category: "Pulseiras",
-    fileUrl: "/catalogos/cartucho-pulseiras.pdf",
-    thumbnail: "https://www.camasso.com.br/imagens/catalogos/cartucho.jpg",
-    size: "850 KB"
+    title: "Pulseira de Pronto Atendimento",
+    category: "Pulseira de Pronto Atendimento",
+    fileUrl: "/catalogos/Catalogo Pulseira Pronto Atendimento.pdf",
+    size: "962 KB"
   },
   {
     id: 9,
-    title: "Etiquetas Camasso",
-    category: "Suprimentos",
-    fileUrl: "/catalogos/etiquetas-camasso.pdf",
-    thumbnail: "https://www.camasso.com.br/imagens/catalogos/etiquetas.jpg",
-    size: "4.2 MB"
+    title: "Pulseira Soft",
+    category: "Piulseira Soft",
+    fileUrl: "/catalogos/Catalogo Pulseira Soft.pdf",
+    size: "1.685 KB"
   },
   {
     id: 10,
-    title: "Embalagens de Unitarização",
-    category: "Hospitalar",
-    fileUrl: "/catalogos/embalagens-unitarizacao.pdf",
-    thumbnail: "https://www.camasso.com.br/imagens/catalogos/unitarizacao.jpg",
-    size: "2.7 MB"
+    title: "Pulseiras",
+    category: "Pulseiras",
+    fileUrl: "/catalogos/Catalogo Pulseiras.pdf",
+    size: "12.275 KB"
   },
   {
     id: 11,
-    title: "Totem de Autoatendimento",
-    category: "Terminais",
-    fileUrl: "/catalogos/totem-camasso.pdf",
-    thumbnail: "https://www.camasso.com.br/imagens/catalogos/totem.jpg",
-    size: "1.9 MB"
+    title: "Tela Interativa",
+    category: "Tela Interativa",
+    fileUrl: "/catalogos/Tela Interativa.pdf",
+    size: "12.967 KB"
+  },
+  {
+    id: 22,
+    title: "Totem Pro",
+    category: "Totem Pro",
+    fileUrl: "/catalogos/Totem Pro.pdf",
+    size: "1.436 KB"
+  },
+  {
+    id: 13,
+    title: "Totem Smart",
+    category: "Totem Smart",
+    fileUrl: "/catalogos/Totem Smart.pdf",
+    size: "1.108 KB"
+  },
+  {
+    id: 14,
+    title: "Unitarização",
+    category: "Unitarização",
+    fileUrl: "/catalogos/Unitarização.pdf",
+    size: "943 KB"
   }
+
 ];

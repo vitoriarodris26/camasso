@@ -1,6 +1,5 @@
 "use client";
 
-import React from 'react';
 import { MessageCircle } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 import { ROUTES } from '@/lib/routes';
@@ -8,13 +7,10 @@ import { ROUTES } from '@/lib/routes';
 export default function Hero() {
     const router = useRouter(); 
   return (
-    <section className="relative  h-[816] pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
+    <section className="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
       
-      {/* Background Video & Gradient Logic */}
       <div className="absolute inset-0 z-0">
-        
-        {/* VÍDEO DE FUNDO */}
-        {/* 'object-cover' faz o vídeo cobrir tudo sem distorcer, igual 'bg-cover' */}
+    
         <video 
           autoPlay 
           loop 

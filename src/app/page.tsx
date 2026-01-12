@@ -4,7 +4,7 @@ import Header from "./header/header";
 import Products from "./products/page";
 import Hero from "@/components/hero";
 import About from "./about/page";
-
+import CertificacoesPage from "./certifcation/page";
 
 export default function Home() {
   return (
@@ -14,6 +14,7 @@ export default function Home() {
       <Products />
       <Assistance />
       <About/>
+      <CertificacoesPage />
       <Footer />
     </main>
   );

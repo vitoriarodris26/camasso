@@ -2,51 +2,94 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
-import { ArrowUpRight, X } from "lucide-react";
+import { ArrowUpRight, Store, X } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { ROUTES } from "@/lib/routes";
-import { categoriesList, CategoryData, productsContent } from "./products-data";
+import {
+  categoriesList,
+  CategoryData,
+  ProductCardData,
+  productsContent,
+} from "./products-data";
 
 export default function Products() {
   const [activeTab, setActiveTab] = useState("Impressoras");
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [selectedProduct, setSelectedProduct] = useState<any>(null);
+  const [selectedProduct, setSelectedProduct] =
+    useState<ProductCardData | null>(null);
 
   const router = useRouter();
   const content: CategoryData =
     productsContent[activeTab] || productsContent["Destaques"];
 
-  const openModal = (product: any) => {
-    setSelectedProduct(product);
-    setIsModalOpen(true);
-  };
+  const openModal = (product: ProductCardData) => {
+  setSelectedProduct(product);
+  setIsModalOpen(true);
+}
 
   return (
     <section className="bg-gray-50 py-20 relative" id="produtos">
-      <h1 className="text-2xl font-bold text-center mb-16 text-gray-900">
-        Produtos que você encontra na{" "}
-        <span className="text-green-600">Camasso</span>
-      </h1>
+      <section className="pt-10 pb-30">
+        <div className="container mx-auto px-6 text-center">
+          <div className="inline-flex items-center gap-2 bg-green-100 text-green-700 px-4 py-1.5 rounded-full mb-6">
+            <Store size={16} className="text-green-600" />
+            <span className="text-[11px] font-black uppercase tracking-[0.2em]">
+              Produtos
+            </span>
+          </div>
 
-      <div className="flex justify-center mb-12 overflow-x-auto pb-2 scrollbar-hide">
-        <div className="flex space-x-2 md:space-x-6 border-b border-gray-200 px-4">
-          {categoriesList.map((cat) => (
-            <button
-              key={cat}
-              onClick={() => setActiveTab(cat)}
-              className={`pb-4 text-sm font-medium transition-all whitespace-nowrap relative px-2
-                ${
-                  activeTab === cat
-                    ? "text-green-600 font-bold"
-                    : "text-gray-500 hover:text-green-600"
-                }`}
-            >
-              {cat}
-              {activeTab === cat && (
-                <span className="absolute bottom-0 left-0 w-full h-[3px] bg-green-500 rounded-t-full" />
-              )}
-            </button>
-          ))}
+          <h1 className="text-3xl md:text-5xl font-bold text-gray-900 leading-tight">
+            Aqui tem qualidade <span className="text-green-600">Camasso</span>
+          </h1>
+          <p className="text-gray-500 mt-4 max-w-2xl mx-auto text-lg">
+            Conheça nossos produtos desenvolvidos para oferecer soluções
+            completas de identificação para diversos setores.
+          </p>
+        </div>
+      </section>
+
+      <div className="w-full mb-12">
+        <div className="block md:hidden px-4">
+          <div className="overflow-x-scroll pb-4 scrollbar-verde w-full flex">
+            <div className="flex min-w-max justify-start items-center gap-3 px-2">
+              {categoriesList.map((cat) => (
+                <button
+                  key={cat}
+                  onClick={() => setActiveTab(cat)}
+                  className={`px-5 py-2 rounded-full text-sm font-semibold transition-all flex-shrink-0 border-2
+                    ${
+                      activeTab === cat
+                        ? "bg-green-600 border-green-600 text-white shadow-md shadow-green-100"
+                        : "bg-white border-gray-100 text-gray-500"
+                    }`}
+                >
+                  {cat}
+                </button>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        <div className="hidden md:flex justify-center">
+          <div className="flex space-x-8">
+            {categoriesList.map((cat) => (
+              <button
+                key={cat}
+                onClick={() => setActiveTab(cat)}
+                className={`pb-4 text-base font-medium transition-all relative px-2
+                  ${
+                    activeTab === cat
+                      ? "text-green-600 font-bold"
+                      : "text-gray-500 hover:text-green-600"
+                  }`}
+              >
+                {cat}
+                {activeTab === cat && (
+                  <span className="absolute bottom-0 left-0 w-full h-[3px] bg-green-500 rounded-t-full" />
+                )}
+              </button>
+            ))}
+          </div>
         </div>
       </div>
 
@@ -160,28 +203,23 @@ export default function Products() {
               </h3>
 
               <div className="space-y-4 text-gray-600">
-                <p>
-                  Equipamento de alta performance ideal para soluções
-                  hospitalares e industriais, garantindo durabilidade e precisão
-                  na identificação.
-                </p>
+                <p>{selectedProduct.description}</p>
 
                 <ul className="space-y-2 mt-6">
-                  <li className="flex items-center gap-2">
-                    ✅ Qualidade de impressão térmica
-                  </li>
+                  <li className="flex items-center gap-2">✅ Qualidade</li>
                   <li className="flex items-center gap-2">
                     ✅ Alta durabilidade e performance
                   </li>
                   <li className="flex items-center gap-2">
-                    ✅ Homologado para setor hospitalar
+                    ✅ Suporte especializado Camasso
                   </li>
                 </ul>
               </div>
 
               <a
-                href={`https://wa.me/97536-1817?text=Olá, tenho interesse no produto: ${selectedProduct.title}`}
+                href={`https://wa.me/5511975361817?text=Olá, tenho interesse no produto: ${selectedProduct.title}`}
                 target="_blank"
+                rel="noopener noreferrer"
                 className="block text-center w-full mt-10 bg-green-500 text-white py-4 rounded-2xl font-bold hover:bg-green-600 transition-colors shadow-lg shadow-green-100"
               >
                 Falar com especialista no WhatsApp
