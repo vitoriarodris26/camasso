@@ -5,6 +5,7 @@ import Products from "./products/page";
 import Hero from "@/components/hero";
 import About from "./about/page";
 import CertificacoesPage from "./certifcation/page";
+import FAQ from "./faq/page";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Assistance />
       <About/>
       <CertificacoesPage />
+      <FAQ/>
       <Footer />
     </main>
   );

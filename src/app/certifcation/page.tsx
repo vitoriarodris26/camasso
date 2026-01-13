@@ -10,7 +10,7 @@ export default function CertificacoesPage() {
     <main className="bg-gray-50 min-h-screen">
       <Header />
 
-      <section className="pt-30">
+      <section className="pt-45">
         <div className="container mx-auto px-6 text-center">
           <div className="inline-flex items-center gap-2 bg-green-100 text-green-700 px-4 py-1.5 rounded-full mb-6">
             <ShieldCheck size={16} className="text-green-600" />
