@@ -3,8 +3,8 @@ import { Headset, ShieldCheck, HelpCircle } from "lucide-react";
 export default function Assistance() {
   const items = [
     { icon: ShieldCheck, title: "Garantia", desc: "A proteção da política de garantia local e fornecida", active: false },
+    { icon: HelpCircle, title: "FAQ", desc: "Tire suas dúvidas", active: true },
     { icon: Headset, title: "Assistência ao cliente", desc: "Fale conosco via live-chat, email ou por telefone", active: false },
-    { icon: HelpCircle, title: "FAQ", desc: "Tire suas dúvidas", active: true } 
   ];
 
   return (

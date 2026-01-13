@@ -14,7 +14,10 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Camasso",
-  description: "Fornecemos soluções em pulseiras e etiquetas de identificação para hospitais, indústrias e logística...",
+  description: "Fornecemos soluções em pulseiras e etiquetas...",
+  icons: {
+    icon: "/assets/images/c_camasso.png", 
+  },
 };
 
 export default function RootLayout({

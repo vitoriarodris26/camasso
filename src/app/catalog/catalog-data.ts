@@ -29,7 +29,7 @@ export const CATALOGOS_DATA = [
   },
   {
     id: 4,
-    title: "Pulseira Cartucho",
+    title: "Cartucho - Recarga de Pulseiras",
     category: "Pulseira Cartucho",
     fileUrl: "/catalogos/Catalogo Pulseira Cartucho.pdf",
     size: "871 KB"
@@ -103,6 +103,58 @@ export const CATALOGOS_DATA = [
     category: "Unitarização",
     fileUrl: "/catalogos/Unitarização.pdf",
     size: "943 KB"
-  }
+  },
+    {
+    id: 17,
+    title: "Impresssora",
+    category: "Unitarização",
+    fileUrl: "/catalogos/Catalogo Impressoras.pdf",
+    size: "943 KB"
+  },
+  {
+    id: 18,
+    title: "Impresssora GI 2408T",
+    category: "Impresssora GI 2408T",
+    fileUrl: "/catalogos/Catalogo Impressoras.pdf",
+    size: "7.453 KB"
+  },
+  {
+    id: 19,
+    title: "Impresssora GA 2408T",
+    category: "Impresssora GA 2408T",
+    fileUrl: "/catalogos/Catalogo Impressoras.pdf",
+    size: "7.453 KB"
+  },
+  {
+    id: 20,
+    title: "Impresssora GP 1625 1625TC",
+    category: "Impresssora GP 1625 1625TC",
+    fileUrl: "/catalogos/Catalogo Impressoras.pdf",
+    size: "7.453 KB"
+  },
+  {
+    id: 21,
+    title: "Impresssora GP 3200",
+    category: "Impresssora GP 3200",
+    fileUrl: "/catalogos/Catalogo Impressoras.pdf",
+    size: "7.453 KB"
+  },
+  {
+    id: 22,
+    title: "Impresssora GP M421",
+    category: "Impresssora GP M421",
+    fileUrl: "/catalogos/Catalogo Impressoras.pdf",
+    size: "7.453 KB"
+  },
+  {
+    id: 23,
+    title: "Impresssora GS 22O8D",
+    category: "Impresssora GP M421",
+    fileUrl: "/catalogos/Catalogo Impressoras.pdf",
+    size: "7.453 KB"
+  },
+  
+  
+
 
 ];

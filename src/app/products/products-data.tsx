@@ -37,8 +37,8 @@ export const productsContent: Record<string, CategoryData> = {
     highlightLink: "#",
     items: [
       {
-        title: "Impressora de Pulseiras",
-        tags: ["Térmico direto", "Baixo Volume"],
+        title: "Térmico Direto",
+        tags: ["Premium", "Soft", "Identificação"],
         image: "/assets/images/impressora2.png",
         description: "Ideal para baixo a médio volume de impressão, unindo economia e qualidade profissional."
       },
@@ -57,7 +57,7 @@ export const productsContent: Record<string, CategoryData> = {
     ]
   },
   "Pulseiras": {
-    heroImage: "/produtos/medico.avif",
+    heroImage: "/produtos/paciente.png",
     heroBadge: "Pulseiras Hospitalares",
     highlightLabel: "Pulseiras",
     highlightTitle: "Segurança do Paciente",
@@ -65,31 +65,31 @@ export const productsContent: Record<string, CategoryData> = {
     highlightLink: "#",
     items: [
       {
-        title: "Pulseira Térmica",
-        tags: ["Hospitalar", "Adulto"],
-        image: "/assets/images/termica.jpeg",
+        title: "Térmica Direto",
+        tags: ["Hospitalar", "Premium"],
+        image: "/produtos/pulseira-termica.png",
         description: "Material durável e confortável, resistente a água e álcool, garantindo a legibilidade dos dados."
       },
       {
-        title: "Pulseira Soft",
-        tags: ["Conforto", "Infantil"],
-        image: "/assets/images/puseira-branca.webp",
+        title: "Classificação",
+        tags: ["Adulto", "Folha"],
+        image: "/produtos/pulseira-indent.png",
         description: "Toque macio especial para peles sensíveis, ideal para alas neonatais e pediátricas."
       },
       {
-        title: "Pulseira de Classificação",
-        tags: ["Triagem", "Cores"],
-        image: "/assets/images/classif.webp",
+        title: "public/produtos/cartucho.png",
+        tags: ["Triagem", "Infantil", "Neonatal"],
+        image: "/produtos/cartucho.png",
         description: "Cores padrão para gestão de risco e triagem visual rápida em unidades de emergência."
       }
     ]
   },
   "Etiquetas": {
-    heroImage: "/produtos/etiqueta-grid.png",
+    heroImage: "/produtos/etiquetas_nutri.png",
     heroBadge: "Etiquetas Especializadas",
     highlightLabel: "Etiquetas",
     highlightTitle: "Identificação Precisa",
-    highlightDesc: "Etiquetas para rastreabilidade, logística e conformidade técnica.",
+    highlightDesc: "Etiquetas para rastreabilidade, logística e conformidade técnica ou personalizada para qualquer necessidade.",
     highlightLink: "#",
     items: [
       {
@@ -100,20 +100,20 @@ export const productsContent: Record<string, CategoryData> = {
       },
       {
         title: "Etiqueta BOPP",
-        tags: ["Fosco", "Transparente"],
+        tags: ["Fosco", "Transparente", "Outros"],
         image: "/produtos/Etiqueta BOPP.png",
         description: "Material plástico resistente a rasgos, é utlizado em meios hospitalares."
       },
       {
-        title: "Etiquetas em geral",
-        tags: ["Alta Fixação"],
+        title: "Couchê",
+        tags: ["Acrílico", "Borracha", "Outros"],
         image: "/produtos/Etiquetas.png",
         description: "Fazemos etiquetas personalizadas conforme a necessidade do cliente, com diversos tipos de materiais e acabamentos."
       }
     ]
   },
   "Unitarização": {
-    heroImage: "/produtos/farmc.avif",
+    heroImage: "/produtos/unitalirizacao.png",
     heroBadge: "Gestão Farmacêutica",
     highlightLabel: "Unitarização",
     highlightTitle: "Segurança Medicamentosa",
@@ -197,7 +197,7 @@ export const productsContent: Record<string, CategoryData> = {
     ]
   },
   "Telas Interativas": {
-    heroImage: "/produtos/escritorio.jpg",
+    heroImage: "/produtos/aula.png",
     heroBadge: "Comunicação Visual",
     highlightLabel: "Telas",
     highlightTitle: "Interatividade e Engajamento",
@@ -244,40 +244,29 @@ export const productsContent: Record<string, CategoryData> = {
         image: "/produtos/pdv impress.png",
         description: "Leitura rápida em qualquer ângulo, ideal para supermercados e retalho de alto fluxo."
       },
-      {
-        title: "Outros",
-        tags: ["Variedade", "Tecnologia"],
-        image: "/produtos/smart4.png",
-        description: "Temos variedade de PDV, confira"
-      }
+
     ]
   },
   "Totens de Autoatendimento": {
-    heroImage: "/produtos/atendimento.jpg",
-    heroBadge: "Auto atendimento",
+    heroImage: "/produtos/auto_atend.png",
+    heroBadge: "Fazemos Outsourcing",
     highlightLabel: "Totens",
-    highlightTitle: "Inovação no Atendimento",
+    highlightTitle: "Fazemos Outsourcing",
     highlightDesc: "Soluções self-service para reduzir custos e melhorar o fluxo de clientes.",
     highlightLink: "#",
     items: [
       {
         title: "Totem Pro",
         tags: ["Moderno"],
-        image: "/produtos/Pro 2.png",
-        description: "Permite que o cliente realize o checkout completo de forma autónoma e segura."
+        image: "/produtos/pro.png",
+        description: "Gestão completa | Suporte especializado."
       },
       {
         title: "Totem Smart",
         tags: ["Inteligente", "Aplicativos"],
-        image: "/produtos/smart3.png",
+        image: "/produtos/smarts.png",
         description: "Organize o fluxo de atendimento com emissão de senhas e triagem inicial."
       },
-      {
-        title: "Outros",
-        tags: ["Variedade", "Interativo"],
-        image: "/produtos/Smart.png",
-        description: "Ideal para shoppings, hospitais e eventos para orientação e consulta de dados."
-      }
     ]
   }
 };
