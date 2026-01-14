@@ -47,7 +47,6 @@ const [selectedService, setSelectedService] = useState<Servico | null>(null);
         </div>
       </section>
 
-      {/* Grid de Cards */}
       <section className="container mx-auto pb-20 px-6 mt-12">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
           {filtered.map((servico) => (

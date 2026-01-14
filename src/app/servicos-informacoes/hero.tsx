@@ -26,8 +26,8 @@ export default function HeroActivities() {
       <div className="container mx-auto px-2 relative z-10">
         <div className="max-w-2xl animate-fade-in-up">
           <h1 className="text-5xl lg:text-6xl font-bold leading-tight mb-6 text-white">
-            Nossos Serviços e<br />
-            <span className="text-[#10b981]">informações</span>
+            Serviços<br />
+            <span className="text-[#10b981]">da Camasso</span>
           </h1>
           
           <p className="text-gray-200 text-lg mb-8  leading-relaxed max-w-lg">
@@ -35,7 +35,7 @@ export default function HeroActivities() {
           </p>
 
           <button 
-            onClick={() => router.push(ROUTES.SERVICOS)}
+            onClick={() => router.push(ROUTES.CATALOGO)}
             className="bg-[#10b981] text-white px-10 py-4 rounded-3xl font-semibold hover:bg-[#059669] transition-all shadow-lg flex items-center gap-2 group"
           >
             <BadgeCheck size={20} />

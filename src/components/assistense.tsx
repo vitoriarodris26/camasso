@@ -8,7 +8,7 @@ export default function Assistance() {
   ];
 
   return (
-    <section className="py-20 pb-45 bg-[#f8f9fa] opacity-0 animate-[fadeIn_1s_ease-in-out_1s_forwards]">
+    <section className="py-20 pb-45 bg-[#f8f9fa] pl-8 pr-8 opacity-0 animate-[fadeIn_1s_ease-in-out_1s_forwards]">
       <div className="container mx-auto px-1">        
         <div className="flex flex-wrap justify-center gap-12 text-center">
           {items.map((item, i) => (

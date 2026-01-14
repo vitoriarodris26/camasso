@@ -1,5 +1,5 @@
 import { ROUTES } from "@/lib/routes";
-import { Facebook, InspectionPanel, Instagram, Linkedin, Youtube } from "lucide-react";
+import { Facebook, Instagram, Linkedin, Youtube } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -44,10 +44,10 @@ export default function Footer() {
             <h5 className="font-bold mb-6 text-base text-slate-00 lg:pr-4">Siga a Camasso</h5>
             <div className="flex gap-3">
               {[
-                { icon: <Instagram size={20} />, href: "https://instagram.com/camassobrasil" },
+                { icon: <Instagram size={20} />, href: "https://www.instagram.com/camasso_do_brasil/" },
                 { icon: <Facebook size={20} />, href: "https://facebook.com/camassobrasil" },
-                { icon: <Linkedin size={20} />, href: "https://linkedin.com/company/camasso" },
-                { icon: <Youtube size={20} />, href: "https://youtube.com/camasso" }
+                { icon: <Linkedin size={20} />, href: "https://www.linkedin.com/company/camasso/jobs/o" },
+                { icon: <Youtube size={20} />, href: "https://www.youtube.com/@camassosolucoes7538" }
               ].map((social, i) => (
                 <a 
                   key={i}

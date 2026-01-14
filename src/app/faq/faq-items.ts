@@ -1,10 +1,15 @@
-import {  Printer, ShieldCheck, Truck, Zap } from "lucide-react";
+import {  Printer, ShieldCheck, ShoppingBasket, Truck, Zap } from "lucide-react";
 
 export const FAQ_ITEMS = [
   {
     pergunta: "A Camasso atende em todo o Brasil?",
     resposta: "Sim, atendemos com excelência a todo o território nacional, com logística otimizada para garantir entregas rápidas e seguras em qualquer estado.",
     Icone: Truck,
+  },
+   {
+    pergunta: "Onde Comprar?",
+    resposta: "As compras são feitas a partir da personalização de necessidades feita pelos nossos analistas, você pode solicitar via WhatsApp",
+    Icone: ShoppingBasket,
   },
   {
     pergunta: "Como funciona a locação de impressoras?",

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Eye, Fingerprint, Heart, SaveAll, Target, Trophy } from "lucide-react";
+import { Eye, Heart, Target, Trophy } from "lucide-react";
 
 export const metadata = {
   title: "Sobre a Camasso | Identificação e Tecnologia",
@@ -32,11 +32,11 @@ export default function About() {
   return (
     <main>
       <section className="pt-24 lg:pt-20 pb-16 lg:pb-24 bg-white">
-        <div className="container mx-auto px-4 md:px-12 lg:px-24">
+        <div className="container mx-auto pt-45 px-4 md:px-12 lg:px-24">
           <div className="grid grid-cols-1 lg:grid-cols-[0.8fr_1.2fr] gap-8 lg:gap-16 items-center">
             <div className="relative h-[250px] sm:h-[300px] lg:h-[400px] w-full rounded-[2rem] overflow-hidden shadow-xl">
               <Image
-                src="/assets/images/banner01.jpg"
+                src="/assets/images/camassos.png"
                 alt="Escritório Camasso"
                 fill
                 className="object-cover"

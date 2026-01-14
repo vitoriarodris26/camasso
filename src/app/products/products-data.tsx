@@ -1,5 +1,6 @@
 export type ProductCardData = {
   title: string;
+  slug: string;
   tags: string[];
   image: string;
   description?: string;
@@ -12,7 +13,7 @@ export type CategoryData = {
   highlightTitle: string;
   highlightDesc: string;
   highlightLink: string;
-  items: [ProductCardData, ProductCardData, ProductCardData];
+  items: ProductCardData[];
 };
 
 export const categoriesList = [
@@ -38,19 +39,22 @@ export const productsContent: Record<string, CategoryData> = {
     items: [
       {
         title: "Térmico Direto",
+        slug: "aluguel-impressoras",
         tags: ["Premium", "Soft", "Identificação"],
         image: "/assets/images/impressora2.png",
         description: "Ideal para baixo a médio volume de impressão, unindo economia e qualidade profissional."
       },
-       {
+      {
         title: "Etiqueta BOPP",
+        slug: "etiquetas-adesivas",
         tags: ["Fosco", "Transparente"],
         image: "/produtos/Etiqueta BOPP.png",
         description: "Material plástico resistente a rasgos, é utlizado em meios hospitalares."
       },
-       {
-        title: "Tela interativa  43”",
-        tags: ["Alta Tecnologia", ],
+      {
+        title: "Tela interativa 43”",
+        slug: "telas-interativas",
+        tags: ["Alta Tecnologia"],
         image: "/produtos/tela 43.png",
         description: "Interface homem-máquina para controlo de produção e processos industriais."
       },
@@ -66,18 +70,21 @@ export const productsContent: Record<string, CategoryData> = {
     items: [
       {
         title: "Térmica Direto",
+        slug: "pulseiras-identificacao",
         tags: ["Hospitalar", "Premium"],
         image: "/produtos/pulseira-termica.png",
         description: "Material durável e confortável, resistente a água e álcool, garantindo a legibilidade dos dados."
       },
       {
         title: "Classificação",
+        slug: "pulseiras-identificacao",
         tags: ["Adulto", "Folha"],
         image: "/produtos/pulseira-indent.png",
         description: "Toque macio especial para peles sensíveis, ideal para alas neonatais e pediátricas."
       },
       {
-        title: "public/produtos/cartucho.png",
+        title: "Cartucho de Pulseiras",
+        slug: "pulseiras-identificacao",
         tags: ["Triagem", "Infantil", "Neonatal"],
         image: "/produtos/cartucho.png",
         description: "Cores padrão para gestão de risco e triagem visual rápida em unidades de emergência."
@@ -94,18 +101,21 @@ export const productsContent: Record<string, CategoryData> = {
     items: [
       {
         title: "Poliéster",
+        slug: "etiquetas-adesivas",
         tags: ["Cromo Fosco"],
         image: "/produtos/Poliester.png",
         description: "Ideal para envios e identificação de curta duração com excelente contraste de impressão."
       },
       {
         title: "Etiqueta BOPP",
+        slug: "etiquetas-adesivas",
         tags: ["Fosco", "Transparente", "Outros"],
         image: "/produtos/Etiqueta BOPP.png",
         description: "Material plástico resistente a rasgos, é utlizado em meios hospitalares."
       },
       {
         title: "Couchê",
+        slug: "etiquetas-adesivas",
         tags: ["Acrílico", "Borracha", "Outros"],
         image: "/produtos/Etiquetas.png",
         description: "Fazemos etiquetas personalizadas conforme a necessidade do cliente, com diversos tipos de materiais e acabamentos."
@@ -122,18 +132,21 @@ export const productsContent: Record<string, CategoryData> = {
     items: [
       {
         title: "Compatibilidade Opuspac",
+        slug: "unitarizacao-medicamentos",
         tags: ["Filme Laminado", "Selagem Lateral"],
         image: "/produtos/oup.avif",
         description: "Materiais específicos que garantem a integridade e estabilidade do medicamento fracionado."
       },
       {
         title: "Compatibilidade SisnacMed",
+        slug: "unitarizacao-medicamentos",
         tags: ["Selagem em 3 lados", "Fosco"],
         image: "/produtos/sisnc.avif",
         description: "Rastreabilidade completa desde a farmácia central até à beira do leito do paciente."
       },
-       {
+      {
         title: "Compatibilidade MeaModul",
+        slug: "unitarizacao-medicamentos",
         tags: ["Papel Térmico", "Transtérmico"],
         image: "/produtos/other.avif",
         description: "Automatize o processo de embalagem e etiquetagem de doses unitárias com precisão total."
@@ -150,18 +163,21 @@ export const productsContent: Record<string, CategoryData> = {
     items: [
       {
         title: "Impressora de Pulseiras",
+        slug: "aluguel-impressoras",
         tags: ["Térmico direto", "Baixo Volume"],
         image: "/assets/images/impressora2.png",
         description: "Ideal para baixo a médio volume de impressão, unindo economia e qualidade profissional."
       },
       {
         title: "Impressora de Etiquetas",
+        slug: "aluguel-impressoras",
         tags: ["Térmico direto", "Média Produção"],
         image: "/assets/images/impressora-1.png",
         description: "Construída para operar 24/7 em ambientes fabris e logísticos intensos."
       },
       {
         title: "Impressora de Etiquetas Industrial",
+        slug: "aluguel-impressoras",
         tags: ["Transferência Térmica", "Alta Produção"],
         image: "/assets/images/industrial.png",
         description: "Leve e ágil, permite a impressão de etiquetas no local da operação, aumentando a produtividade."
@@ -178,18 +194,21 @@ export const productsContent: Record<string, CategoryData> = {
     items: [
       {
         title: "Ribbon Cera",
+        slug: "ribbons",
         tags: ["Económico", "Papel"],
         image: "/produtos/RibbonCera.png",
         description: "Excelente qualidade para etiquetas de papel em logística e retalho."
       },
       {
         title: "Ribbon Misto",
+        slug: "ribbons",
         tags: ["Resistência", "Versátil"],
         image: "/produtos/RibbonMisto.png",
         description: "Mistura de cera e resina para maior resistência a fricção e variações de temperatura."
       },
       {
         title: "Ribbon Resina",
+        slug: "ribbons",
         tags: ["Químico", "Extremo"],
         image: "/produtos/RibbonResin.png",
         description: "Máxima durabilidade para etiquetas sintéticas expostas a químicos ou condições externas."
@@ -205,19 +224,22 @@ export const productsContent: Record<string, CategoryData> = {
     highlightLink: "#",
     items: [
       {
-        title: "Tela interativa  43”",
-        tags: ["Alta Tecnologia", ],
+        title: "Tela interativa 43”",
+        slug: "telas-interativas",
+        tags: ["Alta Tecnologia"],
         image: "/produtos/tela 43.png",
         description: "Interface homem-máquina para controlo de produção e processos industriais."
       },
       {
-        title: "Tela interativa  65”, 75” e 86”",
+        title: "Tela interativa 65”, 75” e 86”",
+        slug: "telas-interativas",
         tags: ["Versátil"],
         image: "/produtos/tela.png",
         description: "Exiba métricas em tempo real para a sua equipa com clareza e alto brilho."
       },
       {
         title: "Outros",
+        slug: "telas-interativas",
         tags: ["Tecnologia de ponta", "Qualidade de Imagem"],
         image: "/produtos/telas.png",
         description: "Tecnologia para reuniões e treinos dinâmicos com interação simultânea."
@@ -234,17 +256,18 @@ export const productsContent: Record<string, CategoryData> = {
     items: [
       {
         title: "Ponto de Venda | HD-780Pro",
+        slug: "automacao-comercial",
         tags: ["Recibo", "Ágil"],
         image: "/produtos/pdv.png",
         description: "Impressão veloz de talões e pedidos, essencial para qualquer comércio ou restaurante."
       },
       {
         title: "Ponto de Venda | HD-280F",
+        slug: "automacao-comercial",
         tags: ["Tecnologico", "PDV"],
         image: "/produtos/pdv impress.png",
         description: "Leitura rápida em qualquer ângulo, ideal para supermercados e retalho de alto fluxo."
       },
-
     ]
   },
   "Totens de Autoatendimento": {
@@ -257,12 +280,14 @@ export const productsContent: Record<string, CategoryData> = {
     items: [
       {
         title: "Totem Pro",
+        slug: "totens-autoatendimento",
         tags: ["Moderno"],
         image: "/produtos/pro.png",
         description: "Gestão completa | Suporte especializado."
       },
       {
         title: "Totem Smart",
+        slug: "totens-autoatendimento",
         tags: ["Inteligente", "Aplicativos"],
         image: "/produtos/smarts.png",
         description: "Organize o fluxo de atendimento com emissão de senhas e triagem inicial."

@@ -75,7 +75,7 @@ export default function Catalogos() {
 
         {filtered.length === 0 && (
           <div className="text-center py-20">
-             <p className="text-gray-400">Nenhum catálogo encontrado para "{searchTerm}".</p>
+             <p className="text-gray-400">Nenhum catálogo encontrado para {searchTerm}.</p>
           </div>
         )}
       </section>

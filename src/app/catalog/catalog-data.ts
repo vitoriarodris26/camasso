@@ -7,7 +7,7 @@ export const CATALOGOS_DATA = [
     size: "2.349 KB"
   },
   {
-    id: 26,
+    id: 267,
     title: "Totem Pro Gafil",
     category: "Totem Pro Gafil",
     fileUrl: "/catalogos/Totem Pro Gafil.pdf.pdf",
@@ -84,7 +84,7 @@ export const CATALOGOS_DATA = [
     size: "12.967 KB"
   },
   {
-    id: 22,
+    id: 212,
     title: "Totem Pro",
     category: "Totem Pro",
     fileUrl: "/catalogos/Totem Pro.pdf",

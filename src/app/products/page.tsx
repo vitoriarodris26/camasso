@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import { useState, useEffect } from "react";
 import Image from "next/image";
 import { ArrowUpRight, Store, X } from "lucide-react";
 import { useRouter } from "next/navigation";
@@ -23,9 +23,18 @@ export default function Products() {
     productsContent[activeTab] || productsContent["Destaques"];
 
   const openModal = (product: ProductCardData) => {
-  setSelectedProduct(product);
-  setIsModalOpen(true);
-}
+    setSelectedProduct(product);
+    setIsModalOpen(true);
+  };
+
+  useEffect(() => {
+    if (isModalOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+    return () => { document.body.style.overflow = "auto"; };
+  }, [isModalOpen]);
 
   return (
     <section className="bg-gray-50 py-20 relative" id="produtos">

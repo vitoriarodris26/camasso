@@ -3,11 +3,12 @@ export const ROUTES = {
   PRODUTOS: "/produtos",
   SERVICOS: "/servicos-informacoes",
   SOBRE: "/#quem-somos",
-  CONTATO: "https://wa.me/5511975361817",
+  CONTATO: "/contato",
   CATALOGO: "/catalog",
   SUPORTE: "/help-desk",
   TRABALHE_CONOSCO: "https://www.linkedin.com/company/camasso/jobs/",
   AREA_CLIENTE: "https://camasso.tomticket.com/",
+  SERVICOS_DETALHE: "/servicos-detalhe/"
 };
 
 export const NAV_LINKS = [
