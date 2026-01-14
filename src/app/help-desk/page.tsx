@@ -15,6 +15,7 @@ import Footer from "@/components/footer";
 //   { id: 4, title: "FWTool v2.3.18(b)", size: "589 KB", url: "/help-desk/fwtool-v2-3-18.exe" } ,
 //   { id: 5, title: "ZPLcodebartool", size: "676 KB", url: "/help-desk/zpltool.exe" },
 // ];
+//
 
 const DRIVERS = [
   { id: 1, title: "Print Utility Beta", size: "3.231 KB", url: "/help-desk/pirnterutility-beta2-35.exe" },
