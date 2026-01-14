@@ -80,7 +80,7 @@ export const SERVICOS_CAMASSO = [
  {
     id: 92,
     title: "Pulseiras de Identificação Hospitalar e Soluções",
-    slug: "",
+    slug: "pulseira-de-identificação-hospitalar-preco",
     category: "Identificação",
     icon: PenTool,
     image: "/assets/images/pulseira.jpg",
@@ -103,7 +103,7 @@ export const SERVICOS_CAMASSO = [
     slug: "distribuidor-etiquetas-termicas",
     category: "Insumos",
     icon: PenTool,
-    image: "servicos/distribuidor-etiquetas-termicas-03.jpg",
+    image: "/servicos/etiqueta-termica-onde-comprar-02.jpg",
     desc: "Distribuição de etiquetas térmicas autoadesivas e soluções de rotulagem industrial.",
     seoVariants: [
       "distribuidor de etiquetas térmicas",
