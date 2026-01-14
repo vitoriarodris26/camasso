@@ -17,6 +17,9 @@
 /.next/
 /out/
 dist/
+*.exe
+public/help-desk/*.exe
+
 public/help-desk/BT2016_R9_3160_UL_Gprinter.exe
 
 # production
