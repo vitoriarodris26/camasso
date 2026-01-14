@@ -17,6 +17,7 @@
 /.next/
 /out/
 dist/
+public/help-desk/BT2016_R9_3160_UL_Gprinter.exe
 
 # production
 /build
