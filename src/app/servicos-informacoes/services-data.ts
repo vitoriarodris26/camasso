@@ -595,7 +595,7 @@ desc: "Como empresa de etiquetas térmicas líder em soluções de outsourcing, 
     slug: "etiquetas-couche",
     category: "Identificação",
     icon: PenTool,
-    image: "", 
+    image: "/servicos/etq_couche.png", 
     desc: "Soluções ágeis de personalização de pulseiras em SP."
   },
   {
