@@ -316,8 +316,7 @@ desc: "Como empresa de etiquetas térmicas líder em soluções de outsourcing, 
     category: "Equipamentos",
     icon: Printer,
     image: "/servicos/aluguel-impressora-termica-04.png",
-    desc: "Alta resolução para legibilidade total de QR Codes."
-  },
+    desc: "A impressora térmica de etiqueta adesiva da Camasso é a solução definitiva para empresas que buscam reduzir custos sem perder qualidade na identificação de produtos. Com tecnologia de ponto de impressão quadrado, ela garante a legibilidade absoluta de códigos de barras e caracteres alfanuméricos em diversos materiais, desde papel termossensível até filmes plásticos. Nossos equipamentos são bivolt e projetados para o uso industrial e comercial intenso, oferecendo agilidade de até 100mm/s e sistema de rebobinamento automático para trocas rápidas de rolo. Através dos nossos modelos de Comodato ou Locação, sua empresa conta com manutenção mensal inclusa e assessoria para integração com computadores e balanças, assegurando uma operação eficiente em todo o território nacional."  },
   {
     id: 39,
     title: "Impressora Térmica Etiqueta",
@@ -325,8 +324,7 @@ desc: "Como empresa de etiquetas térmicas líder em soluções de outsourcing, 
     category: "Equipamentos",
     icon: Printer,
     image: "/servicos/aluguel-impressoras-04.jpg", 
-    desc: "Soluções industriais para rotulagem eficiente."
-  },
+    desc: "A impressora térmica etiqueta da Camasso é uma ferramenta versátil e essencial para transportadoras, indústrias e comércios que buscam precisão logística. Ao utilizar o calor para formar imagens, este equipamento elimina a necessidade de cartuchos de tinta, tornando o processo mais econômico e ambientalmente sustentável. Um grande diferencial da Camasso é a compatibilidade com a tecnologia Ribbon Silver, que proporciona uma economia de até 70% no consumo de fitas de impressão. Além de alta produtividade e baixo custo operacional, nossas soluções seguem rigorosamente as normas da Anvisa e do Ministério da Saúde, sendo validadas por certificações ISO 9001, 14001 e OHSAS 18001. Invista em um projeto de padronização eficiente com logística nacional e suporte especializado para as demandas mais exigentes."  },
   {
     id: 40,
     title: "Impressora Térmica Etiqueta Adesiva",
@@ -334,8 +332,7 @@ desc: "Como empresa de etiquetas térmicas líder em soluções de outsourcing, 
     category: "Equipamentos",
     icon: Printer,
     image: "/servicos/aluguel-impressoras-preco-03.jpg",
-    desc: "Agilidade na impressão de etiquetas adesivas para logística."
-  },
+    desc: "A impressora térmica de etiqueta adesiva é um pilar fundamental para a automação de processos, permitindo a impressão rápida de códigos de barras, dados variáveis e rótulos personalizados. Com mais de 15 anos de expertise, a Camasso fornece equipamentos que utilizam o calor para a formação da imagem, eliminando custos com tinta e elevando a performance operacional em armazéns, hospitais e indústrias. Nossa solução é compatível com diversos tamanhos de etiquetas e integra-se perfeitamente à tecnologia Ribbon Silver, que reduz o consumo de fita em até 70%. Ao escolher a Camasso, sua empresa conta com o respaldo de certificações ISO 9001, 14001 e OHSAS 18001, assegurando um sistema de identificação sustentável, eficiente e com cobertura logística em todo o território nacional."  },
   {
     id: 41,
     title: "Impressora Térmica Locação",
@@ -343,8 +340,7 @@ desc: "Como empresa de etiquetas térmicas líder em soluções de outsourcing, 
     category: "Locação",
     icon: Printer,
     image: "/servicos/aluguel-impressora-termica-04.png", 
-    desc: "Aluguel com manutenção inclusa e reposição de suprimentos."
-  },
+    desc: "A Center Camasso destaca-se no mercado nacional por oferecer a melhor relação custo-benefício em impressora térmica locação. Nosso serviço vai além do fornecimento de hardware: entregamos uma solução de gestão completa que inclui o desenvolvimento de softwares para gerenciamento de documentos e relatórios mensais detalhados sobre os níveis de consumo da sua empresa. Com a nossa locação, você garante um maior volume de impressões com o mínimo de tempo de parada, graças ao cronograma de manutenção preventiva mensal incluso no contrato. Seja para a impressão de etiquetas, rótulos ou pulseiras no Protocolo de Manchester, nossa estrutura de outsourcing assegura agilidade, tecnologia de ponta e controle total sobre os processos de identificação em todo o Brasil."  },
   {
     id: 42,
     title: "Impressora Térmica para Pulseiras",
@@ -352,8 +348,7 @@ desc: "Como empresa de etiquetas térmicas líder em soluções de outsourcing, 
     category: "Equipamentos",
     icon: Printer,
     image: "/servicos/empresa-de-impressora-termica-02.png",
-    desc: "Equipamentos robustos para alta demanda hospitalar."
-  },
+    desc: "A impressora térmica para pulseiras da Camasso utiliza tecnologia termocrômica avançada, onde o calor transforma áreas específicas do papel térmico para criar imagens, textos e códigos de barras com precisão absoluta. Essencial para a segurança em maternidades e controle de visitantes, este equipamento oferece impressões silenciosas e rápidas, eliminando a necessidade de toners ou cartuchos de tinta. Além de reduzir o impacto ambiental, nossa solução foca na durabilidade e na baixa manutenção, sendo ideal para o manejo ágil de identificação em ambientes hospitalares ou eventos de grande porte. Com o suporte especializado da Camasso, sua instituição garante um sistema de identificação eficaz, econômico e em total conformidade com as normas de segurança vigentes."  },
   {
     id: 43,
     title: "Locação de Impressora de Etiquetas",
@@ -361,8 +356,7 @@ desc: "Como empresa de etiquetas térmicas líder em soluções de outsourcing, 
     category: "Locação",
     icon: Settings,
     image: "/servicos/empresa-de-impressora-termica-02.png", 
-    desc: "Equipamentos de alta performance para etiquetas duráveis."
-  },
+    desc: "Desde 2006, a Camasso oferece soluções de locação de impressora de etiquetas adaptadas ao porte de cada negócio. Para demandas menores, nosso contrato de locação garante suporte técnico e manutenção preventiva mensal; já para grandes volumes, o modelo de comodato oferece o hardware gratuitamente, onde o cliente paga apenas pelo suprimento consumido. Nossos equipamentos utilizam a tecnologia exclusiva Ribbon Silver, que economiza até 70% de fita e permite impressões resistentes em ambientes úmidos ou sob variações climáticas. Através do nosso outsourcing, sua empresa ganha controle total sobre o consumo, estabelecendo políticas de impressão consciente e aumentando a velocidade produtiva com sistemas de etiquetagem automática em todo o território nacional."  },
   {
     id: 44,
     title: "Locação de Impressora Preço",
@@ -370,8 +364,7 @@ desc: "Como empresa de etiquetas térmicas líder em soluções de outsourcing, 
     category: "Locação",
     icon: Printer,
     image: "/servicos/empresa-de-impressora-termica-04.png", 
-    desc: "Planos mensais acessíveis com suporte técnico."
-  },
+    desc: "A locação de impressora preço competitivo é a solução ideal para empresas que buscam eliminar os altos custos de aquisição e manutenção de ativos. Ao contrário da compra, que muitas vezes resulta em equipamentos subutilizados ou paradas por falta de suporte técnico, o outsourcing da Camasso garante uma área de impressão sempre moderna e funcional. Nossos contratos são versáteis e incluem fornecimento contínuo de insumos, assistência técnica qualificada e controle total das impressões, o que gera uma economia real de recursos. Com mais de 10 anos de experiência atendendo todo o Brasil, formatamos a estrutura de locação de acordo com o seu porte, garantindo que o investimento se transforme em produtividade e excelência operacional para o seu negócio."  },
   {
     id: 45,
     title: "Locação de Impressora Térmica",
@@ -379,8 +372,7 @@ desc: "Como empresa de etiquetas térmicas líder em soluções de outsourcing, 
     category: "Locação",
     icon: Printer,
     image: "/servicos/aluguel-impressoras-04.jpg", 
-    desc: "Solução ideal para demandas de impressão térmica."
-  },
+    desc: "A Center Camasso é referência nacional em locação de impressora térmica, oferecendo soluções que unem rapidez, eficiência e economia. Entendemos que cada negócio possui uma demanda única: por isso, disponibilizamos contratos de locação para volumes menores e o formato de comodato para grandes produções, onde o cliente paga de acordo com o consumo de insumos. Nossos especialistas realizam uma análise detalhada da metodologia e do espaço de trabalho de cada cliente para implementar sistemas de rotulagem e etiquetagem automatizada. Além do fornecimento de hardware moderno, garantimos tranquilidade total através de manutenção preventiva mensal, suporte técnico contínuo e orientação de uso, assegurando que sua linha de produção nunca pare."  },
   {
     id: 46,
     title: "Outsourcing de Impressora Térmica",
@@ -388,8 +380,7 @@ desc: "Como empresa de etiquetas térmicas líder em soluções de outsourcing, 
     category: "Serviços",
     icon: Settings,
     image: "/servicos/aluguel-impressora-termica-04.png", 
-    desc: "Gestão completa da infraestrutura com foco em redução de custos."
-  },
+    desc: "O outsourcing de impressora térmica da Center Camasso é um conceito estratégico que vai além da simples locação, focando na terceirização inteligente de todo o parque de impressão. Com mais de 10 anos de mercado, garantimos uma gestão profissional que reduz custos imediatamente através de equipes especializadas e manutenção preventiva automatizada. Nossa solução permite a reparação online de equipamentos e o controle rigoroso de suprimentos, assegurando que sua empresa foque exclusivamente na atividade principal. Atendemos indústrias e corporações em todo o Brasil, entregando um ambiente de impressão seguro, flexível e móvel, com o suporte de técnicos sempre disponíveis para garantir que sua linha de produção opere com agilidade e excelência constante."  },
   {
     id: 47,
     title: "Pulseira de Classificação",
@@ -397,8 +388,7 @@ desc: "Como empresa de etiquetas térmicas líder em soluções de outsourcing, 
     category: "Identificação",
     icon: PenTool,
     image: "/servicos/pulseira-classificacao-02.png", 
-    desc: "Pulseiras coloridas para triagem em ambientes hospitalares."
-  },
+    desc: "A pulseira de classificação é um elemento vital para organizar o fluxo de atendimento em ambientes hospitalares agitados, permitindo o encaminhamento ágil dos pacientes conforme a gravidade do quadro. Seguindo o Protocolo de Manchester, nossas soluções abrangem as cinco cores essenciais: Vermelho (Emergência), Laranja (Muito Urgente), Amarelo (Urgente), Verde (Pouco Urgente) e Azul (Não Urgente). A Camasso fornece o maquinário ideal para a impressão dessas pulseiras com alta qualidade e baixo custo, assegurando que a triagem seja precisa e humanizada. Atendendo a todo o Brasil e respeitando rigorosamente a legislação vigente, nossas impressoras térmicas facilitam o cotidiano dos profissionais de saúde, priorizando a segurança do paciente desde o momento da recepção até a sua plena recuperação."  },
   {
     id: 48,
     title: "Pulseira Classificação de Risco",
@@ -406,9 +396,7 @@ desc: "Como empresa de etiquetas térmicas líder em soluções de outsourcing, 
     category: "Identificação",
     icon: ShieldCheck,
     image: "/servicos/pulseira-classificacao-risco-preco-01.png", 
-    
-    desc: "Segurança total seguindo o protocolo de Manchester."
-  },
+    desc: "As pulseiras de classificação de risco da Camasso representam uma solução inovadora que une estilo, conforto e segurança vital. Projetadas para identificar rapidamente condições médicas críticas, como alergias severas, diabetes ou cardiopatias, elas funcionam como um alerta visual imediato para profissionais de saúde em situações de emergência. Incorporamos as últimas tendências tecnológicas, como o uso de QR Codes para acesso instantâneo a prontuários detalhados e o uso de materiais avançados que suportam o uso contínuo sem perder a legibilidade. Seja para o ambiente hospitalar ou para uso pessoal em pacientes com condições crônicas, nossas pulseiras oferecem a paz de espírito necessária, garantindo que a informação correta esteja disponível no momento exato em que ela é mais necessária."  },
   {
     id: 49,
     title: "Etiquetas para unitarização de Medicamentos",
@@ -416,17 +404,14 @@ desc: "Como empresa de etiquetas térmicas líder em soluções de outsourcing, 
     category: "Identificação",
     icon: ShieldCheck,
     image: "/produtos/unitalirizacao.png", 
-    desc: "Custo-benefício superior em pulseiras para triagem."
-  },
+    desc: "A pulseira de hospital da Camasso é produzida com tecnologia de ponta para garantir agilidade e segurança máxima em unidades médicas de todo o Brasil. Essencial para facilitar o fluxo de trabalho de médicos e enfermeiros, nossa linha inclui as vitais pulseiras 'Mãe e Filho', que utilizam numeração idêntica para evitar trocas em maternidades, além de modelos para identificação de riscos, alergias e triagem pelo Protocolo de Manchester. Disponibilizamos dois tipos de materiais de alta performance: o BOPP, altamente resistente a variações de temperatura e umidade, e o Tyvek, uma solução econômica com lacre inviolável. Com estrutura própria para produção em larga escala, a Camasso entrega eficácia e rapidez, assegurando que cada paciente seja identificado com precisão e dignidade."  },
   {
     id: 50,
-    title: "Pulseira de Hospital",
     slug: "pulseira-de-hospital",
     category: "Identificação",
     icon: PenTool,
     image: "/assets/images/pulseira.jpg", 
-    desc: "Identificação segura durante todo o período de internação."
-  },
+    desc: "A pulseira hospitalar tornou-se um item indispensável para garantir a qualidade e a segurança em hospitais, clínicas e postos de saúde com alto fluxo de pessoas. A Center Camasso, empresa 100% nacional, desenvolve pulseiras que facilitam o trabalho de médicos e enfermeiros em três frentes críticas: na triagem pelo Protocolo de Manchester (usando cores para classificar a urgência), na identificação de alertas específicos (como medicação, risco de fuga e alergias) e na segurança neonatal através do sistema Mãe-Filho, que utiliza numeração idêntica para evitar trocas em maternidades. Com equipamentos de última geração e atendimento em todo o Brasil, nossa missão é agregar valor e economia, transformando a gestão de pacientes em um processo ágil, humanizado e livre de erros."  },
   {
     id: 51,
     title: "Pulseira Hospitalar",
@@ -443,8 +428,7 @@ desc: "Como empresa de etiquetas térmicas líder em soluções de outsourcing, 
     category: "Identificação",
     icon: PenTool,
     image: "/assets/images/puseira-branca.webp", 
-    desc: "O padrão mais utilizado para identificação básica."
-  },
+    desc: "A pulseira hospitalar branca da Camasso é o padrão ouro para identificação geral em clínicas, maternidades e hospitais. Seguindo rigorosamente as normas de saúde, este modelo é ajustável e versátil, atendendo desde recém-nascidos até pacientes obesos com total conforto. Fabricada em material antialérgico e extremamente resistente, ela é essencial para evitar erros em procedimentos clínicos, como coletas de sangue e administração de medicamentos, garantindo que os dados do paciente estejam sempre legíveis para conferência imediata. Através do nosso serviço de outsourcing, asseguramos que sua instituição nunca fique desabastecida, oferecendo reposição programada de matéria-prima e manutenção das impressoras térmicas, o que otimiza o tempo dos profissionais e reduz significativamente os custos operacionais."  },
   {
     id: 53,
     title: "Pulseira Hospitalar Colorida",
@@ -452,8 +436,7 @@ desc: "Como empresa de etiquetas térmicas líder em soluções de outsourcing, 
     category: "Identificação",
     icon: PenTool,
     image: "/assets/images/pulseira.jpg", 
-    desc: "Identificação visual para alergias e riscos de queda."
-  },
+    desc: "A pulseira hospitalar colorida é a ferramenta central para a aplicação do Protocolo de Manchester, permitindo que hospitais e prontos-socorros organizem o atendimento por níveis de urgência. Através das cores — vermelho (emergência), laranja (muito urgente), amarelo (urgente), verde (pouco urgente) e azul (não urgente) — os profissionais de saúde conseguem priorizar casos críticos e humanizar o tempo de espera. As soluções da Camasso permitem a impressão térmica direta nessas pulseiras, incluindo códigos de barras para acesso instantâneo ao histórico médico do paciente. Com atendimento em todo o Brasil e foco total na conformidade com as legislações de saúde, fornecemos o maquinário e o suporte necessários para que sua unidade de saúde opere com eficiência máxima e baixo custo operacional."  },
   {
     id: 54,
     title: "Pulseira Hospitalar em Rolo",
@@ -461,8 +444,7 @@ desc: "Como empresa de etiquetas térmicas líder em soluções de outsourcing, 
     category: "Identificação",
     icon: Box,
     image: "/servicos/pulseira-hospitalar.jpg",
-    desc: "Pulseiras em bobinas para uso em impressoras térmicas."
-  },
+  desc: "A pulseira hospitalar em rolo é a solução mais eficiente para instituições de saúde que operam em larga escala. Projetada para encaixe direto em impressoras térmicas, este formato garante agilidade no manuseio e uma significativa economia de escala. Nossas pulseiras são fabricadas com material atóxico, impermeável e possuem bordas delicadas que garantem o conforto do paciente, além de lacres adesivos de alta resistência. A Camasso oferece flexibilidade total na aquisição: desde a compra avulsa do suprimento até contratos de comodato (onde a máquina tem custo zero mediante o consumo) ou locação tradicional com assessoria completa para gestão de estoque. Com entrega em todo o Brasil e total conformidade com o Protocolo de Manchester, garantimos que sua unidade nunca sofra com a falta deste item obrigatório de segurança."  },
   {
     id: 55,
     title: "Pulseira de Identificação",
@@ -470,8 +452,7 @@ desc: "Como empresa de etiquetas térmicas líder em soluções de outsourcing, 
     category: "Identificação",
     icon: PenTool,
     image: "/servicos/pulseira-classificacao-02.png", 
-    desc: "Solução completa para segurança em diversos segmentos."
-  },
+    desc: "A pulseira de identificação da Camasso é uma ferramenta indispensável para organizadores que buscam segurança e eficiência no controle de público. Seja em festivais de música, conferências corporativas ou ambientes de alta restrição, nossas pulseiras garantem uma identificação visual rápida e confiável. Oferecemos uma ampla gama de materiais: desde as práticas pulseiras de papel para eventos de curta duração, até modelos duráveis em plástico ou elegantes opções em tecido para experiências premium. Além de reforçar a segurança e facilitar a entrada dos participantes, as pulseiras oferecem uma oportunidade única de marketing através da personalização com logos e cores da marca. Com diversos tipos de fechos e alta resistência, a Camasso entrega a solução ideal para garantir uma experiência fluida, segura e profissional para o seu evento."  },
   {
     id: 56,
     title: "Pulseira de Identificação Atacado",
@@ -479,8 +460,7 @@ desc: "Como empresa de etiquetas térmicas líder em soluções de outsourcing, 
     category: "Identificação",
     icon: ShoppingCart,
     image: "/servicos/pulseira-classificacao-risco-preco-03.png",
-    desc: "Condições especiais para grandes volumes personalizados."
-  },
+    desc: "A compra de pulseira de identificação atacado é a escolha estratégica para instituições que possuem alta rotatividade de público e demanda constante. Conhecidas também como pulseiras Scan ou térmicas, nossas peças permitem a impressão de dados fixos e variáveis, como QR Codes e códigos de barras, sem borrar ou apagar devido à alta aderência térmica do material. Produzidas em material atóxico e resistente à água, atendem desde o setor hospitalar (Protocolo de Manchester) até hotéis, clubes e organizadores de eventos. O grande diferencial da Camasso é o fornecimento dimensionado: entregamos os rolos de pulseiras integrados a um escopo completo que inclui as impressoras térmicas e suporte técnico total, garantindo que sua operação de identificação seja autônoma, econômica e eficiente."  },
   {
     id: 57,
     title: "Pulseira de Identificação para Bebê",
@@ -488,8 +468,7 @@ desc: "Como empresa de etiquetas térmicas líder em soluções de outsourcing, 
     category: "Identificação",
     icon: PenTool,
     image: "/servicos/pulseira-identificacao-recem-nascido-preco-01.jpg",
-    desc: "Pulseiras ultra-macias para segurança de recém-nascidos."
-  },
+    desc: "A pulseira de identificação para bebê da Camasso é desenvolvida sob os mais rígidos padrões de segurança e qualidade, apoiada pelas certificações ISO 9001, ISO 14001 e OHSAS 18001. Essencial para evitar trocas em maternidades e erros na administração de medicamentos ou exames, nossa pulseira é fabricada em material atóxico e antialérgico, garantindo conforto total à pele sensível do recém-nascido. Através de um sistema de impressão térmica que dispensa o uso de tintas, oferecemos uma solução de baixíssimo custo e alta velocidade, ideal para atendimentos de urgência. O serviço inclui o fornecimento de impressoras tecnológicas, reposição automática de estoques e manutenção preventiva mensal, assegurando que a identificação neonatal nunca sofra interrupções e os pais tenham a tranquilidade de um atendimento profissional e seguro."  },
   {
     id: 58,
     title: "Pulseira de Identificação Biomedical",
@@ -497,8 +476,7 @@ desc: "Como empresa de etiquetas térmicas líder em soluções de outsourcing, 
     category: "Identificação",
     icon: ShieldCheck,
     image: "/servicos/pulseira-identificacao-biomedical-02.jpg", 
-    desc: "Identificação especializada para laboratórios."
-  },
+    desc: "A pulseira de identificação biomedical da Camasso é projetada especificamente para as rigorosas exigências de hospitais, clínicas e maternidades. Fabricada com materiais de alta durabilidade, ela apresenta resistência total a rasgos e umidade, suportando o contato com suor e atritos diários sem perder a legibilidade. Um grande diferencial é sua borda não traumática, que previne irritações e machucados na pele sensível, garantindo um uso confortável durante longos períodos. Equipada com o ultra-resistente lacre adesivo 3M, a pulseira impede a reutilização e garante um controle de acesso inviolável, sendo necessário cortá-la para remoção. Integrada ao nosso serviço de outsourcing, esta solução une segurança técnica, conformidade com o Protocolo de Manchester e a eficiência logística que só a Camasso oferece em todo o território nacional."  },
   {
     id: 59,
     title: "Pulseira de Identificação para Hospital",
@@ -506,8 +484,7 @@ desc: "Como empresa de etiquetas térmicas líder em soluções de outsourcing, 
     category: "Identificação",
     icon: PenTool,
     image: "/servicos/distribuidor-pulseiras-identificacao-01.jpg", 
-    desc: "Suprimentos hospitalares de alta qualidade."
-  },
+    desc: "A pulseira de identificação para hospital é um item obrigatório e estratégico para a segurança do paciente e o controle institucional. Além de permitir a personalização com dados vitais, códigos de barras e integração com o Protocolo de Manchester, ela atua diretamente na redução de erros médicos e no gerenciamento de riscos. Com mais de uma década de experiência, a Camasso se destaca pela reposição ágil e ininterrupta deste insumo, mantendo um amplo estoque para atender prontamente instituições em todo o Brasil. Nossos contratos de soluções completas englobam desde o fornecimento da estrutura de impressão até as pulseiras em cores e formatos variados, garantindo conforto ao usuário e segurança operacional para que a rotina hospitalar nunca seja prejudicada por falta de suprimentos."  },
   {
     id: 60,
     title: "Pulseira de Identificação Hospitalar",
@@ -515,8 +492,7 @@ desc: "Como empresa de etiquetas térmicas líder em soluções de outsourcing, 
     category: "Identificação",
     icon: PenTool,
     image: "/assets/images/pulseira.jpg", 
-    desc: "A melhor solução do mercado para identificação segura."
-  },
+    desc: "A pulseira de identificação hospitalar da Center Camasso é desenvolvida para atender à Meta 1 de Segurança do Paciente e à Lei 10.241, garantindo que todo cidadão seja identificado corretamente por nome e sobrenome. Nosso modelo Scan Rolo é projetado para suportar dados críticos como prontuário, CID, alergias e tipo sanguíneo, prevenindo erros médicos que podem comprometer a saúde do paciente e a reputação da instituição. Fabricadas com material de alta durabilidade, nossas pulseiras não mancham, não rasgam e possuem bordas não traumáticas que não machucam o usuário. Com lacre inviolável e resistência à umidade, elas garantem que a identificação permaneça íntegra durante todo o atendimento. Oferecemos a solução completa, incluindo impressoras térmicas de alta velocidade para atualizações em tempo real nas dependências de saúde."  },
   {
     id: 61,
     title: "Pulseira de Identificação Hospitalar Preço",
@@ -524,8 +500,7 @@ desc: "Como empresa de etiquetas térmicas líder em soluções de outsourcing, 
     category: "Identificação",
     icon: PenTool,
     image: "/servicos/pulseira-classificacao-risco-preco-01.png", 
-    desc: "Valores competitivos com tecnologia superior térmica."
-  },
+    desc: "Encontrar a melhor pulseira de identificação hospitalar preço competitivo é essencial para a saúde financeira e operacional de qualquer instituição médica. A Camasso oferece um modelo de negócio altamente vantajoso: ao firmar o fornecimento contínuo de nossas pulseiras — que possuem lacre inviolável com tecnologia 3M, resistência à umidade e conformidade com o Protocolo de Manchester — sua instituição pode contar com o comodato gratuito das impressoras térmicas. Esta solução elimina o investimento inicial em hardware e garante um estoque sempre abastecido conforme a demanda. Além da economia direta, nossas pulseiras promovem um atendimento humanizado e seguro, servindo como ferramenta indispensável para o gerenciamento de risco hospitalar através da identificação imediata de nomes, tipos sanguíneos e alergias."  },
   {
     id: 62,
     title: "Pulseira de Identificação Hospitalar Protocolo",
@@ -533,7 +508,7 @@ desc: "Como empresa de etiquetas térmicas líder em soluções de outsourcing, 
     category: "Identificação",
     icon: ClipboardCheck,
     image: "/assets/images/puseira-branca.webp", 
-    desc: "Conformidade total com normas de segurança do paciente."
+    desc: "A pulseira de identificação hospitalar protocolo de Manchester é uma ferramenta obrigatória para garantir que o manejo do paciente ocorra dentro dos tempos clínicos seguros. Através de um sistema visual de cores — do Vermelho (emergência imediata) ao Azul (não urgente) — os profissionais de saúde conseguem triar e encaminhar cada caso ao setor correto com precisão. As soluções da Camasso permitem a impressão de códigos de barras nessas pulseiras, tornando o histórico hospitalar acessível instantaneamente. Com maquinário de alta qualidade e profissionais especializados, fornecemos a estrutura necessária para que hospitais em todo o Brasil agilizem seus processos internos, promovendo um atendimento humanizado e rigorosamente alinhado aos protocolos de segurança internacionais."
   },
   {
     id: 63,
@@ -542,8 +517,7 @@ desc: "Como empresa de etiquetas térmicas líder em soluções de outsourcing, 
     category: "Identificação",
     icon: PenTool,
     image: "/assets/images/pulseira.jpg", 
-    desc: "Durabilidade e clareza na impressão de dados cruciais."
-  },
+    desc: "A pulseira de identificação médica é um pilar fundamental da segurança hospitalar, recomendada pela Organização Mundial da Saúde (OMS) para minimizar riscos e eventos adversos. A Center Camasso fornece pulseiras térmicas do modelo Scan, que garantem alta aderência da impressão e resistência para uso em hospitais, laboratórios e clínicas. Disponíveis em branco para dados gerais e nas cores do Protocolo de Manchester (Azul, Verde, Amarelo, Laranja e Vermelho), nossas pulseiras são integradas a um ecossistema de outsourcing que inclui impressoras modernas, manutenção preventiva e gestão de suprimentos. Com sedes em três estados e atendimento nacional, oferecemos modalidades de aluguel e comodato que reduzem a necessidade de mão de obra interna e otimizam os custos operacionais, garantindo que a identificação do paciente seja sempre precisa, rápida e segura."  },
   {
     id: 64,
     title: "Pulseira de Identificação Neonatal",
@@ -551,8 +525,7 @@ desc: "Como empresa de etiquetas térmicas líder em soluções de outsourcing, 
     category: "Identificação",
     icon: PenTool,
     image: "/servicos/pulseira-identificacao-recem-nascido-preco-02.jpg",
-    desc: "Segurança e conforto extremo para recém-nascidos."
-  },
+    desc: "A pulseira de identificação neonatal da Camasso é a solução definitiva para o monitoramento seguro de recém-nascidos em maternidades e UTIs infantis. Entendendo que bebês possuem peles extremamente sensíveis, nossas pulseiras são fabricadas em material estritamente não traumático e antialérgico, garantindo que não haja irritações ou lesões. O sistema de fechamento foi projetado para uma fixação perfeita e segura, sem causar incômodos ao neonato. Como Revenda Destaque premiada internacionalmente pela Brother em Memphis (EUA), a Camasso oferece um serviço completo de outsourcing que inclui impressoras térmicas de alta precisão, manutenção preventiva e fornecimento contínuo de suprimentos, assegurando que a identificação e o acompanhamento médico dos bebês ocorram com excelência em todo o território nacional."  },
   {
     id: 65,
     title: "Pulseira de Identificação Paciente",
@@ -560,8 +533,7 @@ desc: "Como empresa de etiquetas térmicas líder em soluções de outsourcing, 
     category: "Identificação",
     icon: ShieldCheck,
     image: "/produtos/pulseira-termica.png", 
-    desc: "Foco na precisão dos dados para evitar erros médicos."
-  },
+    desc: "A pulseira identificação paciente é um recurso essencial para garantir uma assistência de saúde segura, organizada e humanizada. Em conformidade com legislações estaduais que tornaram seu uso obrigatório, nossas pulseiras permitem a leitura clara de dados vitais como nome, idade, tipo sanguíneo, alergias e CID, além de suportar códigos de barras para integração digital. Fabricadas em material antialérgico, sem rebarbas e com lacre inviolável, elas são resistentes a rasgos e à água, mantendo as informações nítidas durante todo o período de internação. Através do modelo de comodato da Camasso, sua instituição garante a estrutura completa de impressão sem custos de aquisição do hardware, transformando a identificação em um processo econômico que eleva os índices de satisfação e segurança hospitalar em todo o Brasil."  },
   {
     id: 66,
     title: "Pulseira de Identificação de Paciente Onde Comprar",
@@ -569,8 +541,7 @@ desc: "Como empresa de etiquetas térmicas líder em soluções de outsourcing, 
     category: "Identificação",
     icon: ShoppingCart,
     image: "/assets/images/termica.jpeg", 
-    desc: "Fornecimento direto de fábrica com melhores prazos."
-  },
+    desc: "Se você busca pulseira de identificação de paciente onde comprar com o melhor custo-benefício e garantia de qualidade, a Center Camasso é a referência nacional desde 2006. Nossas pulseiras são projetadas para durabilidade extrema: são resistentes à umidade, não mancham, não rasgam e possuem o lacre adesivo 3M, comprovadamente inviolável. Um diferencial técnico importante é que nossas pulseiras dispensam o uso de Ribbon, simplificando a logística e reduzindo custos operacionais. Premiada como Revenda Destaque em Memphis (EUA), a Center Camasso oferece estrutura completa em regime de comodato, garantindo que hospitais e ambulatórios tenham sempre em mãos um produto com borda não traumática que prioriza o conforto e a segurança do paciente, permitindo uma gestão de prontuário ágil e humanizada."  },
   {
     id: 67,
     title: "Pulseira de Identificação Personalizada",
@@ -578,8 +549,7 @@ desc: "Como empresa de etiquetas térmicas líder em soluções de outsourcing, 
     category: "Identificação",
     icon: PenTool,
     image: "/assets/images/pulseira.jpg", 
-    desc: "Personalização completa com logos e cores."
-  },
+    desc: "A pulseira de identificação personalizada da Camasso é a solução definitiva para controle de acesso e segurança em ambientes hospitalares, industriais, escolares e eventos. Produzida em materiais resistentes e confortáveis, ela permite a inserção de nomes, logotipos, códigos de barras e QR Codes, otimizando a rastreabilidade e a experiência do usuário. O grande diferencial desta solução é a integração com nossa tecnologia Ribbon Silver, que proporciona uma economia real de até 70% no consumo de fitas de impressão sem perder a nitidez. Com certificações ISO 9001, 14001 e OHSAS 18001, garantimos um produto sustentável, de alta durabilidade e alinhado aos mais rígidos padrões de qualidade e segurança do trabalho."  },
   {
     id: 68,
     title: "Pulseira de Identificação Personalizada São Paulo",
@@ -587,16 +557,16 @@ desc: "Como empresa de etiquetas térmicas líder em soluções de outsourcing, 
     category: "Identificação",
     icon: PenTool,
     image: "/servicos/pulseira-classificacao-risco-preco-03.png", 
-    desc: "Produção rápida em SP para identificação corporativa."
-  },
-  {
+    desc: "A Camasso consolidou-se como a principal referência em pulseira de identificação personalizada em São Paulo, oferecendo uma assessoria completa que une tecnologia e economia. Nossas pulseiras Scan são modelos térmicos de alto desempenho que dispensam o uso de ribbon, reduzindo drasticamente o custo por impressão. Fabricadas com material atóxico e propriedades antibacterianas, elas garantem segurança total em ambientes médicos, hotéis e parques. O grande diferencial para o mercado paulista é o nosso contrato de comodato: fornecemos as impressoras térmicas e o suporte técnico especializado praticamente a custo zero, vinculados ao fornecimento de suprimentos. Com certificações ISO 9001, 14001 e 18001, asseguramos um atendimento ágil e materiais de durabilidade extrema com o exclusivo lacre inviolável 3M."  },
+ {
     id: 69,
-    title: "Etiquetas Couche",
+    title: "Etiquetas Couché",
     slug: "etiquetas-couche",
     category: "Identificação",
     icon: PenTool,
     image: "/servicos/etq_couche.png", 
-    desc: "Soluções ágeis de personalização de pulseiras em SP."
+    desc: "A solução mais versátil para identificação de produtos e embalagens.",
+    longdesc: "As etiquetas em papel couché da Camasso são a escolha ideal para empresas que buscam um excelente equilíbrio entre qualidade de impressão e custo-benefício. Com uma superfície lisa que recebe perfeitamente a impressão via Ribbon (Cera ou Misto), estas etiquetas garantem alto brilho e nitidez para códigos de barras, precificação e informações logísticas. São amplamente utilizadas no comércio, indústrias e centros de distribuição para identificação de caixas, envelopes e produtos que não fiquem expostos a condições extremas. Através do nosso sistema de fornecimento, garantimos etiquetas com adesivos de alta performance que não descolam, além de oferecer suporte técnico para a configuração ideal em sua impressora térmica, assegurando agilidade e padronização em toda a sua cadeia de identificação."
   },
   {
     id: 70,
@@ -605,8 +575,7 @@ desc: "Como empresa de etiquetas térmicas líder em soluções de outsourcing, 
     category: "Identificação",
     icon: PenTool,
     image: "/servicos/pulseira-identificacao-recem-nascido-preco-01.jpg", 
-    desc: "Consulte preços escalonáveis para grandes quantidades."
-  },
+    desc: "A Camasso oferece a melhor relação custo-benefício para quem busca pulseira de identificação preço competitivo sem abrir mão da segurança. Através da inovadora tecnologia 'Ribbon Saver', conseguimos reduzir o consumo de fitas de impressão em até 70%, refletindo em uma economia direta e significativa para o cliente. Nossas pulseiras são ideais para controle de acesso em shows, parques e ambientes hospitalares, apresentando lacres de segurança que evidenciam qualquer tentativa de violação. Ao optar pelo nosso serviço de outsourcing, o cliente é isento dos custos de aquisição e manutenção das impressoras térmicas, contando ainda com um atendimento nacional que adapta o produto às necessidades de cada setor, desde códigos de barras para eventos até cores específicas para triagem clínica."  },
   {
     id: 71,
     title: "Pulseira de Identificação a Prova d'Água",
@@ -614,8 +583,7 @@ desc: "Como empresa de etiquetas térmicas líder em soluções de outsourcing, 
     category: "Identificação",
     icon: ShieldCheck,
     image: "/servicos/empresa-pulseiras-identificacao-02.jpg", 
-    desc: "Pulseiras sintéticas ideais para parques e hospitais."
-  },
+    desc: "A pulseira de identificação à prova d'água da Camasso, também conhecida como modelo Scan, é projetada para manter a integridade total dos dados impressos mesmo em contato constante com a umidade. Fabricada em material atóxico e antibacteriano, ela é indispensável em hospitais para garantir que a identificação do paciente permaneça nítida após o banho ou procedimentos clínicos, além de ser a escolha ideal para clubes, parques e hotéis. Disponível nos tamanhos Adulto, Infantil e Neonatal, e em todas as cores do Protocolo de Manchester, nossa solução garante impermeabilidade absoluta desde que aplicada corretamente. A Camasso oferece ainda o suporte completo, fornecendo impressoras térmicas de alta tecnologia e suprimentos com agilidade em todo o Brasil."  },
   {
     id: 72,
     title: "Pulseira de Identificação para Recém Nascido",
@@ -623,7 +591,7 @@ desc: "Como empresa de etiquetas térmicas líder em soluções de outsourcing, 
     category: "Identificação",
     icon: PenTool,
     image: "/servicos/pulseira-identificacao-recem-nascido-preco-02.jpg", 
-    desc: "Identificação neonatal segura com materiais testados."
+    longdesc: "Encontrar uma pulseira de identificação para recém-nascido preço competitivo e alta qualidade é vital para berçários e maternidades. A Camasso oferece soluções sob medida em material antialérgico e atóxico: nosso sistema de impressão térmica dispensa o uso de tintas, eliminando qualquer risco de intoxicação caso o bebê leve a pulseira à boca. Além de garantir a segurança contra trocas acidentais, as pulseiras suportam dados completos (peso, sexo, filiação) e são resistentes à água, mantendo a integridade das informações mesmo após o banho. Nosso modelo de fornecimento garante estoques sempre em dia e agilidade máxima em atendimentos de urgência, oferecendo economia de escala e uniformidade de impressão para instituições em todo o Brasil."
   },
   {
     id: 73,
@@ -632,7 +600,7 @@ desc: "Como empresa de etiquetas térmicas líder em soluções de outsourcing, 
     category: "Identificação",
     icon: PenTool,
     image: "/servicos/pulseira-identificacao-recem-nascido-preco-02.jpg", 
-    desc: "Segurança neonatal com o melhor custo do mercado."
+    longdesc: "Encontrar uma pulseira de identificação para recém-nascido preço competitivo e alta qualidade é vital para berçários e maternidades. A Camasso oferece soluções sob medida em material antialérgico e atóxico: nosso sistema de impressão térmica dispensa o uso de tintas, eliminando qualquer risco de intoxicação caso o bebê leve a pulseira à boca. Além de garantir a segurança contra trocas acidentais, as pulseiras suportam dados completos (peso, sexo, filiação) e são resistentes à água, mantendo a integridade das informações mesmo após o banho. Nosso modelo de fornecimento garante estoques sempre em dia e agilidade máxima em atendimentos de urgência, oferecendo economia de escala e uniformidade de impressão para instituições em todo o Brasil."
   },
   {
     id: 74,
@@ -641,7 +609,7 @@ desc: "Como empresa de etiquetas térmicas líder em soluções de outsourcing, 
     category: "Identificação",
     icon: ClipboardCheck,
     image: "/servicos/pulseira-classificacao-risco-preco-01.png", 
-    desc: "Gerenciamento de risco hospitalar com cores padrão."
+    desc: "A pulseira Protocolo de Manchester da Center Camasso é a solução ideal para hospitais que buscam eliminar a superlotação e organizar o fluxo de atendimento com máxima eficiência. Utilizando tecnologia de última geração, nossas pulseiras Scan Rolo permitem a impressão térmica de dados vitais e códigos de barras, facilitando a triagem por cores: do Vermelho (emergência imediata) ao Azul (não urgente). Com bordas não traumáticas, resistência à umidade e lacres adesivos invioláveis, as pulseiras garantem que a classificação de risco permaneça segura durante toda a jornada do paciente. Implemente o padrão internacional de Manchester com a qualidade Center Camasso e reduza drasticamente o tempo de espera, priorizando a vida com precisão e agilidade."
   },
   {
     id: 75,
@@ -650,8 +618,7 @@ desc: "Como empresa de etiquetas térmicas líder em soluções de outsourcing, 
     category: "Identificação",
     icon: ShoppingCart,
     image: "/assets/images/termica.jpeg", 
-    desc: "Distribuidor oficial de pulseiras em São Paulo."
-  },
+    desc: "Para quem busca pulseiras de identificação onde comprar em SP, a Camasso Solução em Impressão oferece uma infraestrutura completa que atende desde eventos e shows até hospitais e parques aquáticos. Nosso diferencial reside no fornecimento integrado: entregamos pulseiras adaptadas às suas necessidades específicas — como modelos à prova d'água ou coloridas para triagem hospitalar — e as impressoras térmicas ideais para sua operação. Com sistema de fechamento inviolável que garante a segurança do controle de acesso, nossas soluções promovem economia e otimização de processos. Embora sediados em SP, nossa logística eficiente garante atendimento ágil e suporte técnico especializado para clientes em todos os estados brasileiros."  },
   {
     id: 76,
     title: "Pulseiras de Identificação SP",
@@ -659,7 +626,7 @@ desc: "Como empresa de etiquetas térmicas líder em soluções de outsourcing, 
     category: "Identificação",
     icon: PenTool,
     image: "/servicos/distribuidor-pulseiras-identificacao-01.jpg", 
-    desc: "Venda e distribuição para toda a capital paulista."
+    desc: "A Center Camasso é a principal fornecedora de pulseiras de identificação em SP, consolidada por mais de uma década de inovação e pelo título de Revenda Destaque em Memphis (EUA). Nossas pulseiras no modelo Scan Rolo são projetadas para alta performance: são resistentes, impermeáveis, não mancham e possuem o exclusivo lacre adesivo 3M inviolável. Desenvolvidas para impressão térmica sem ribbon, elas garantem uma operação econômica e ágil para grandes hospitais e instituições da região metropolitana. Através do nosso modelo de comodato, fornecemos as impressoras gratuitamente mediante o fornecimento contínuo de suprimentos, assegurando que sua unidade de saúde ou empresa conte com tecnologia de ponta e suporte especializado em todo o território nacional."
   },
   {
     id: 77,
@@ -668,8 +635,7 @@ desc: "Como empresa de etiquetas térmicas líder em soluções de outsourcing, 
     category: "Comércio",
     icon: ShoppingCart,
     image: "/assets/images/pulseira.jpg", 
-    desc: "Comercialização de diversos modelos para todo o Brasil."
-  },
+    desc: "A Camasso Solução em Impressão oferece um modelo híbrido de venda e locação de impressoras para atender com precisão à demanda de cada estabelecimento. Enquanto a venda é indicada para instituições que buscam a propriedade do ativo para uso intensivo e constante, a locação destaca-se como uma alternativa inteligente para quem prioriza a atualização tecnológica sem imobilização de capital. Em ambas as modalidades, garantimos acesso a equipamentos de última geração, como impressoras térmicas para pulseiras e etiquetas, além de suporte técnico especializado, assistência rápida e reposição contínua de suprimentos. Nossa equipe realiza um atendimento consultivo para identificar qual formato trará maior ROI para sua operação, seja em hospitais, indústrias ou logística, garantindo eficiência máxima em todas as regiões do Brasil."  },
   {
     id: 78,
     title: "Venda e Locação de Impressoras",
@@ -677,6 +643,5 @@ desc: "Como empresa de etiquetas térmicas líder em soluções de outsourcing, 
     category: "Locação",
     icon: Printer,
     image: "/servicos/pulseira-classificacao-02.png", 
-    desc: "Soluções híbridas para suprir sua demanda de impressão."
-  }
+    desc: "A Camasso é a parceira estratégica para instituições que buscam a venda de pulseiras de identificação com garantia de continuidade e qualidade técnica. Nossas pulseiras seguem rigorosamente o Protocolo de Manchester, permitindo uma triagem visual imediata e segura. Além da alta resistência à umidade e do lacre adesivo inviolável, nossos modelos permitem a impressão térmica de códigos de barras e dados variáveis sem o uso de tintas, eliminando riscos de toxicidade. O grande diferencial do nosso serviço de venda é o suporte consultivo: realizamos o levantamento da sua demanda mensal para garantir que o estoque nunca falte e fornecemos relatórios detalhados de consumo, permitindo que sua gestão trace metas de economia e otimize processos operacionais em todo o Brasil."  }
 ];
