@@ -14,15 +14,18 @@ export default function Activities() {
   const [filter, setFilter] = useState("todos");
   const [searchTerm, setSearchTerm] = useState("");
 
-  const filtered = SERVICOS_CAMASSO.filter((s) => {
-    const matchesCategory = filter === "todos" || s.category === filter;
-    const matchesSearch = 
-      s.title.toLowerCase().includes(searchTerm.toLowerCase()) || 
-      s.desc.toLowerCase().includes(searchTerm.toLowerCase());
+ const filtered = SERVICOS_CAMASSO.filter((s) => {
+    const matchesCategory = filter === "todos" || s?.category === filter;
+
+    const titleMatch = (s?.title || "").toLowerCase().includes(searchTerm.toLowerCase());
+    const descMatch = (s?.desc || "").toLowerCase().includes(searchTerm.toLowerCase());
+    
+    const matchesSearch = titleMatch || descMatch;
+
     return matchesCategory && matchesSearch;
   });
 
-  const categories = ["todos", ...new Set(SERVICOS_CAMASSO.map((s) => s.category))];
+  const categories = ["todos", ...new Set(SERVICOS_CAMASSO.map((s) => s?.category).filter(Boolean))];
 
   return (
     <main className="bg-gray-50 min-h-screen">

@@ -565,8 +565,7 @@ desc: "Como empresa de etiquetas térmicas líder em soluções de outsourcing, 
     category: "Identificação",
     icon: PenTool,
     image: "/servicos/etq_couche.png", 
-    desc: "A solução mais versátil para identificação de produtos e embalagens.",
-    longdesc: "As etiquetas em papel couché da Camasso são a escolha ideal para empresas que buscam um excelente equilíbrio entre qualidade de impressão e custo-benefício. Com uma superfície lisa que recebe perfeitamente a impressão via Ribbon (Cera ou Misto), estas etiquetas garantem alto brilho e nitidez para códigos de barras, precificação e informações logísticas. São amplamente utilizadas no comércio, indústrias e centros de distribuição para identificação de caixas, envelopes e produtos que não fiquem expostos a condições extremas. Através do nosso sistema de fornecimento, garantimos etiquetas com adesivos de alta performance que não descolam, além de oferecer suporte técnico para a configuração ideal em sua impressora térmica, assegurando agilidade e padronização em toda a sua cadeia de identificação."
+    desc: "As etiquetas em papel couché da Camasso são a escolha ideal para empresas que buscam um excelente equilíbrio entre qualidade de impressão e custo-benefício. Com uma superfície lisa que recebe perfeitamente a impressão via Ribbon (Cera ou Misto), estas etiquetas garantem alto brilho e nitidez para códigos de barras, precificação e informações logísticas. São amplamente utilizadas no comércio, indústrias e centros de distribuição para identificação de caixas, envelopes e produtos que não fiquem expostos a condições extremas. Através do nosso sistema de fornecimento, garantimos etiquetas com adesivos de alta performance que não descolam, além de oferecer suporte técnico para a configuração ideal em sua impressora térmica, assegurando agilidade e padronização em toda a sua cadeia de identificação."
   },
   {
     id: 70,
@@ -591,7 +590,7 @@ desc: "Como empresa de etiquetas térmicas líder em soluções de outsourcing, 
     category: "Identificação",
     icon: PenTool,
     image: "/servicos/pulseira-identificacao-recem-nascido-preco-02.jpg", 
-    longdesc: "Encontrar uma pulseira de identificação para recém-nascido preço competitivo e alta qualidade é vital para berçários e maternidades. A Camasso oferece soluções sob medida em material antialérgico e atóxico: nosso sistema de impressão térmica dispensa o uso de tintas, eliminando qualquer risco de intoxicação caso o bebê leve a pulseira à boca. Além de garantir a segurança contra trocas acidentais, as pulseiras suportam dados completos (peso, sexo, filiação) e são resistentes à água, mantendo a integridade das informações mesmo após o banho. Nosso modelo de fornecimento garante estoques sempre em dia e agilidade máxima em atendimentos de urgência, oferecendo economia de escala e uniformidade de impressão para instituições em todo o Brasil."
+    desc: "Encontrar uma pulseira de identificação para recém-nascido preço competitivo e alta qualidade é vital para berçários e maternidades. A Camasso oferece soluções sob medida em material antialérgico e atóxico: nosso sistema de impressão térmica dispensa o uso de tintas, eliminando qualquer risco de intoxicação caso o bebê leve a pulseira à boca. Além de garantir a segurança contra trocas acidentais, as pulseiras suportam dados completos (peso, sexo, filiação) e são resistentes à água, mantendo a integridade das informações mesmo após o banho. Nosso modelo de fornecimento garante estoques sempre em dia e agilidade máxima em atendimentos de urgência, oferecendo economia de escala e uniformidade de impressão para instituições em todo o Brasil."
   },
   {
     id: 73,
@@ -600,7 +599,7 @@ desc: "Como empresa de etiquetas térmicas líder em soluções de outsourcing, 
     category: "Identificação",
     icon: PenTool,
     image: "/servicos/pulseira-identificacao-recem-nascido-preco-02.jpg", 
-    longdesc: "Encontrar uma pulseira de identificação para recém-nascido preço competitivo e alta qualidade é vital para berçários e maternidades. A Camasso oferece soluções sob medida em material antialérgico e atóxico: nosso sistema de impressão térmica dispensa o uso de tintas, eliminando qualquer risco de intoxicação caso o bebê leve a pulseira à boca. Além de garantir a segurança contra trocas acidentais, as pulseiras suportam dados completos (peso, sexo, filiação) e são resistentes à água, mantendo a integridade das informações mesmo após o banho. Nosso modelo de fornecimento garante estoques sempre em dia e agilidade máxima em atendimentos de urgência, oferecendo economia de escala e uniformidade de impressão para instituições em todo o Brasil."
+    desc: "Encontrar uma pulseira de identificação para recém-nascido preço competitivo e alta qualidade é vital para berçários e maternidades. A Camasso oferece soluções sob medida em material antialérgico e atóxico: nosso sistema de impressão térmica dispensa o uso de tintas, eliminando qualquer risco de intoxicação caso o bebê leve a pulseira à boca. Além de garantir a segurança contra trocas acidentais, as pulseiras suportam dados completos (peso, sexo, filiação) e são resistentes à água, mantendo a integridade das informações mesmo após o banho. Nosso modelo de fornecimento garante estoques sempre em dia e agilidade máxima em atendimentos de urgência, oferecendo economia de escala e uniformidade de impressão para instituições em todo o Brasil."
   },
   {
     id: 74,
