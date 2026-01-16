@@ -1,14 +1,27 @@
 import { ROUTES } from "@/lib/routes";
-import { Facebook, Instagram, Linkedin, Youtube } from "lucide-react";
+import { 
+  Facebook, 
+  Instagram, 
+  Linkedin, 
+  Youtube, 
+  MapPin, 
+  ShoppingBag, 
+  Headset, 
+  Info, 
+  Share2 
+} from "lucide-react";
 
 export default function Footer() {
   return (
     <footer className="bg-[#edece8] pt-16 pb-8 text-slate-700 border-t border-slate-200">
       <div className="container mx-auto px-6">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 mb-16">
           
           <div>
-            <h5 className="font-bold mb-6 text-base text-slate-900">Compre e saiba mais</h5>
+            <div className="flex items-center gap-2 mb-6 text-slate-900">
+              <ShoppingBag size={20} className="text-green-600" />
+              <h5 className="font-bold text-base">Compre e saiba mais</h5>
+            </div>
             <ul className="space-y-3 text-sm">
               <li><a href="#" className="hover:text-green-600 transition-colors">Todos os produtos</a></li>
               <li className="pt-2"><a href="#" className="hover:text-green-600 transition-colors">Totem Smart</a></li>
@@ -21,7 +34,10 @@ export default function Footer() {
           </div>
 
           <div>
-            <h5 className="font-bold mb-6 text-base text-slate-900">Suporte</h5>
+            <div className="flex items-center gap-2 mb-6 text-slate-900">
+              <Headset size={20} className="text-green-600" />
+              <h5 className="font-bold text-base">Suporte</h5>
+            </div>
             <ul className="space-y-3 text-sm">
               <li><a href={ROUTES.AREA_CLIENTE} className="hover:text-green-600 transition-colors font-medium text-slate-600">Área do cliente</a></li>
               <li className="pt-2 flex flex-col space-y-1">
@@ -33,15 +49,35 @@ export default function Footer() {
           </div>
 
           <div>
-            <h5 className="font-bold mb-6 text-base text-slate-900">Sobre nós</h5>
+            <div className="flex items-center gap-2 mb-6 text-slate-900">
+              <MapPin size={20} className="text-green-600" />
+              <h5 className="font-bold text-base">Localização</h5>
+            </div>
+            <div className="flex gap-2 text-sm text-slate-600">
+              <address className="not-italic leading-relaxed">
+                Estrada dos Romeiros, 2008<br />
+                Vila São Silvestre, Barueri<br />
+                São Paulo - SP<br />
+                04378-000
+              </address>
+            </div>
+          </div>
+
+          <div>
+            <div className="flex items-center gap-2 mb-6 text-slate-900">
+              <Info size={20} className="text-green-600" />
+              <h5 className="font-bold text-base">Sobre nós</h5>
+            </div>
             <ul className="space-y-3 text-sm">
               <li><a href={ROUTES.SOBRE} className="hover:text-green-600 transition-colors">Sobre</a></li>
-              <li className="pt-4"><a href="#" className="hover:text-green-600 transition-colors">Política de Privacidade</a></li>
             </ul>
           </div>
 
           <div className="flex flex-col items-start lg:items-end">
-            <h5 className="font-bold mb-6 text-base text-slate-00 lg:pr-4">Siga a Camasso</h5>
+            <div className="flex items-center gap-2 mb-6 text-slate-900 lg:pr-4">
+              <Share2 size={20} className="text-green-600" />
+              <h5 className="font-bold text-base">Siga a Camasso</h5>
+            </div>
             <div className="flex gap-3">
               {[
                 { icon: <Instagram size={20} />, href: "https://www.instagram.com/camasso_do_brasil/" },
@@ -54,7 +90,7 @@ export default function Footer() {
                   href={social.href} 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="w-10 h-10 bg-green-600 rounded-full flex items-center justify-center text-white hover:bg-green-600 transition-all shadow-sm"
+                  className="w-10 h-10 bg-green-600 rounded-full flex items-center justify-center text-white hover:bg-green-700 transition-all shadow-sm"
                 >
                   {social.icon}
                 </a>
