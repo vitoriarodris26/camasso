@@ -24,7 +24,6 @@ export default function App() {
         <Route path="/help-desk" element={<Suporte />} />
         <Route path="/servicos-informacoes" element={<Services />} />
         <Route path="/servicos/:slug" element={<DetalheServicoPage />} />
-        <Route path="/certificacoes" element={<CertificacoesPage />} />
         <Route path="/faq" element={<FAQ />} />
       </Routes>
 

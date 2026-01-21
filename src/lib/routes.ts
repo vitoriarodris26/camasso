@@ -12,14 +12,12 @@ export const ROUTES = {
   SUPORTE: "/help-desk",
   TRABALHE_CONOSCO: "https://www.linkedin.com/company/camasso/jobs/",
   AREA_CLIENTE: "https://camasso.tomticket.com/",
-  CERTIFICADOS: "/certificados", 
   SERVICO_DETALHE: (slug) => `/servicos/${slug}`
 };
 
 export const NAV_LINKS = [
   { label: "Início", href: ROUTES.HOME },
   { label: "Sobre", href: ROUTES.SOBRE },
-  { label: "Certificados", href: ROUTES.CERTIFICADOS },
   { label: "Soluções", href: ROUTES.SOLUCOES },
   { label: "Informações", href: ROUTES.SERVICOS },
   { label: "Catálogo", href: ROUTES.CATALOGO },
