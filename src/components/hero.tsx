@@ -1,26 +1,26 @@
-"use client";
+import { useNavigate } from 'react-router-dom';
 
-import { useRouter } from 'next/navigation';
-import { ROUTES } from '@/lib/routes';
 import { BadgeCheck } from 'lucide-react';
+import { ROUTES } from '../lib/routes';
 
 export default function Hero() {
-  const router = useRouter();
+  const navigate = useNavigate();
+
   return (
     <section className="relative min-h-[80vh] flex items-center pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
       
       <div className="absolute inset-0 z-0">
-        <video 
-          autoPlay 
-          loop 
-          muted 
-          playsInline 
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
           className="absolute inset-0 w-full h-full object-cover"
         >
-          <source src="/assets/videos/intro-camasso.mp4" />
+          <source src="/assets/videos/intro-camasso.mp4" type="video/mp4" />
         </video>
 
-        <div className="absolute inset-0 bg-gradient-to-r from-[#0a2a2a]/90 via-[#0a2a2a]/60 to-[#0a2a2a]/30"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-[#0a2a2a]/90 via-[#0a2a2a]/60 to-[#0a2a2a]/30" />
       </div>
 
       <div className="container mx-auto px-2 relative z-10">
@@ -29,14 +29,13 @@ export default function Hero() {
             Nossas soluções em <br />
             <span className="text-[#10b981]">identificação</span>
           </h1>
-          
-          <p className="text-gray-200 text-lg mb-8  leading-relaxed max-w-lg">
+
+          <p className="text-gray-200 text-lg mb-8 leading-relaxed max-w-lg">
             Desenvolvemos soluções completas de identificação para tornar seus processos mais organizados, seguros e eficientes.
           </p>
 
-          <button 
-                 onClick={() => router.push(ROUTES.SERVICOS)}
-            
+          <button
+            onClick={() => navigate(ROUTES.SERVICOS)}
             className="bg-[#10b981] text-white px-10 py-4 rounded-3xl font-semibold hover:bg-[#059669] transition-all shadow-lg flex items-center gap-2 group"
           >
             <BadgeCheck size={20} />

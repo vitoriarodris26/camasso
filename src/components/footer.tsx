@@ -1,4 +1,4 @@
-import { ROUTES } from "@/lib/routes";
+
 import { 
   Facebook, 
   Instagram, 
@@ -10,6 +10,7 @@ import {
   Info, 
   Share2 
 } from "lucide-react";
+import { ROUTES } from "../lib/routes";
 
 export default function Footer() {
   return (
