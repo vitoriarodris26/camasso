@@ -67,7 +67,7 @@ export const solutionsData: Record<string, SolutionData> = {
     title: "Hardware",
     description: "A tecnologia de código de barras é uma facilitadora importante no suporte à digitalização no negócio da indústria e de logística. A aplicação dessa tecnologia melhora muito o grau de automação na modernização do processo.",
     images: [
-      "dist/servicos/empresa-de-impressora-termica-02.png", 
+      "/servicos/empresa-de-impressora-termica-02.png", 
       "/servicos/aluguel-impressora-termica-04.png",
       "/servicos/aluguel-impressoras-04.jpg"
     ],
