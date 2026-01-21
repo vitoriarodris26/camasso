@@ -17,7 +17,6 @@ export default function DetalheServicoPage() {
     ? servico.galeria.slice(0, 4) 
     : SERVICOS_CAMASSO.slice(0, 4).map(s => s.image);
 
-  // Função para lidar com a troca de serviço no Select
   const handleSelectChange = (e) => {
     const newSlug = e.target.value;
     navigate(ROUTES.SERVICO_DETALHE(newSlug));
@@ -50,7 +49,6 @@ export default function DetalheServicoPage() {
             Voltar para serviços
           </button>
 
-          {/* SELECT VISÍVEL APENAS NO MOBILE */}
           <div className="lg:hidden mb-6">
             <label htmlFor="service-select" className="block text-xs font-bold uppercase text-gray-400 mb-2 tracking-widest">
               Navegar por Serviços
@@ -126,7 +124,6 @@ export default function DetalheServicoPage() {
             </div>
           </div>
 
-          {/* ASIDE VISÍVEL APENAS NO DESKTOP (LG) */}
           <aside className="hidden lg:block lg:col-span-5">
             <div className="bg-[#0f172a] p-8 rounded-[30px] shadow-xl sticky top-28">
               <div className="flex items-center gap-3 mb-8">

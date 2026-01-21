@@ -2,6 +2,7 @@ import { CheckCircle2, Printer, Settings, ShieldCheck, Headphones, BarChart3 } f
 import Header from "../header/header";
 import Footer from "../components/footer";
 import Hero from "../servicos-informacoes/hero";
+import { ROUTES } from "../lib/routes";
 
 export default function ServicosOutsourcing() {
   const vantagens = [
@@ -80,19 +81,23 @@ export default function ServicosOutsourcing() {
         </div>
       </section>
 
-      <section className="container mx-auto px-4 py-16 text-center lg:px-24">
-        <div className="pt-10 border-t border-gray-100">
-          <h3 className="text-xl font-bold text-gray-900 mb-4 uppercase">
-            Para saber mais sobre terceirização de serviços de impressão
-          </h3>
-          <p className="text-gray-500 mb-8">
-            Ligue para <span className="text-gray-900 font-bold">11 5567-7200</span> ou entre em contato clicando no botão abaixo.
-          </p>
-          <button className="bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-12 rounded-xl transition-all hover:scale-105 shadow-xl uppercase tracking-widest text-sm">
-            Consulte a Camasso
-          </button>
-        </div>
-      </section>
+     <section className="container mx-auto px-4 py-16 text-center lg:px-24">
+  <div className="pt-10 border-t border-gray-100">
+    <h3 className="text-xl font-bold text-gray-900 mb-4 uppercase">
+      Para saber mais sobre terceirização de serviços de impressão
+    </h3>
+    <p className="text-gray-600 mb-8">
+      Ligue para <span className="text-gray-900 font-bold">11 5567-7200</span> ou entre em contato clicando no botão abaixo.
+    </p>
+    
+    <a 
+      href={`${ROUTES.CONTATO}?text=Olá! Gostaria de um orçamento`}
+      className="inline-block bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-12 rounded-xl transition-all hover:scale-105 shadow-xl uppercase tracking-widest text-sm"
+    >
+      Consulte a Camasso
+    </a>
+  </div>
+</section>
 
       <Footer />
     </main>
