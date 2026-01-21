@@ -1,4 +1,4 @@
-import { MessageCircle, ArrowLeft, ChevronRight } from "lucide-react";
+import { MessageCircle, ArrowLeft, ChevronRight, ChevronDown } from "lucide-react"; // Adicionei ChevronDown
 import { useNavigate, useParams } from "react-router-dom";
 
 import { SERVICOS_CAMASSO } from "../../servicos-informacoes/services-data";
@@ -6,7 +6,6 @@ import { ROUTES } from "../../lib/routes";
 import Header from "../../header/header";
 import Footer from "../../components/footer";
 import ServiceLocations from "../../service-location/page";
-import Hero from "../../components/hero";
 
 export default function DetalheServicoPage() {
   const { slug } = useParams();
@@ -17,6 +16,13 @@ export default function DetalheServicoPage() {
   const imagensExibicao = servico?.galeria && servico.galeria.length >= 4 
     ? servico.galeria.slice(0, 4) 
     : SERVICOS_CAMASSO.slice(0, 4).map(s => s.image);
+
+  // Função para lidar com a troca de serviço no Select
+  const handleSelectChange = (e) => {
+    const newSlug = e.target.value;
+    navigate(ROUTES.SERVICO_DETALHE(newSlug));
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
 
   if (!servico) {
     return (
@@ -32,9 +38,9 @@ export default function DetalheServicoPage() {
 
   return (
     <main className="bg-white min-h-screen">
-      <Hero />
+      <Header />
 
-      <section className="pt-32 pb-6">
+      <section className="pt-24 md:pt-32 pb-4 md:pb-6">
         <div className="container mx-auto px-6">
           <button
             onClick={() => navigate(ROUTES.SERVICOS)}
@@ -43,22 +49,47 @@ export default function DetalheServicoPage() {
             <ArrowLeft size={14} />
             Voltar para serviços
           </button>
+
+          {/* SELECT VISÍVEL APENAS NO MOBILE */}
+          <div className="lg:hidden mb-6">
+            <label htmlFor="service-select" className="block text-xs font-bold uppercase text-gray-400 mb-2 tracking-widest">
+              Navegar por Serviços
+            </label>
+            <div className="relative">
+              <select
+                id="service-select"
+                value={servico.slug}
+                onChange={handleSelectChange}
+                className="w-full bg-[#0f172a] text-white p-4 rounded-xl appearance-none border border-gray-800 focus:border-[#0fb34b] outline-none font-medium"
+              >
+                {SERVICOS_CAMASSO.map((item) => (
+                  <option key={item.id} value={item.slug}>
+                    {item.title}
+                  </option>
+                ))}
+              </select>
+              <div className="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none text-[#0fb34b]">
+                <ChevronDown size={20} />
+              </div>
+            </div>
+          </div>
           
-          <h1 className="text-4xl md:text-5xl font-black text-[#101828] mb-12">
+          <h1 className="text-3xl md:text-5xl font-black text-[#101828] leading-tight">
             {servico.title}
           </h1>
         </div>
       </section>
 
       <section className="pb-20">
-        <div className="container mx-auto px-6 grid lg:grid-cols-12 gap-12">
+        <div className="container mx-auto px-6 grid lg:grid-cols-12 gap-8 md:gap-12">
           
           <div className="lg:col-span-7">
-            <div className="grid grid-cols-4 gap-4 mb-10">
+            {/* Grid de Fotos */}
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 mb-8 md:mb-10">
               {imagensExibicao.map((imgUrl, index) => (
                 <div 
                   key={index} 
-                  className="aspect-[3/4] rounded-[24px] overflow-hidden border border-gray-100 shadow-sm bg-gray-50"
+                  className="aspect-[3/4] rounded-2xl md:rounded-[24px] overflow-hidden border border-gray-100 shadow-sm bg-gray-50"
                 >
                   <img 
                     src={imgUrl} 
@@ -70,10 +101,10 @@ export default function DetalheServicoPage() {
             </div>
 
             <div className="space-y-6">
-              <h2 className="text-2xl font-bold text-[#101828]">
+              <h2 className="text-xl md:text-2xl font-bold text-[#101828]">
                 {servico.title}: Soluções eficientes para sua empresa.
               </h2>
-              <p className="text-gray-600 leading-relaxed text-sm text-justify">
+              <p className="text-gray-600 leading-relaxed text-sm md:text-base text-justify md:text-left">
                 {servico.desc}
               </p>
 
@@ -82,7 +113,7 @@ export default function DetalheServicoPage() {
                   href={`${ROUTES.CONTATO}?text=Olá! Gostaria de um orçamento para ${servico.title}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 bg-[#0fb34b] hover:bg-green-700 text-white px-8 py-4 rounded-xl font-bold text-base transition-all active:scale-95 shadow-sm"
+                  className="inline-flex items-center justify-center gap-2 bg-[#0fb34b] hover:bg-green-700 text-white w-full md:w-auto px-8 py-4 rounded-xl font-bold text-base transition-all active:scale-95 shadow-lg shadow-green-600/20"
                 >
                   <MessageCircle size={20} />
                   Solicite um orçamento
@@ -90,10 +121,13 @@ export default function DetalheServicoPage() {
               </div>
             </div>
 
-            <ServiceLocations />
+            <div className="mt-12">
+                <ServiceLocations />
+            </div>
           </div>
 
-          <aside className="lg:col-span-5">
+          {/* ASIDE VISÍVEL APENAS NO DESKTOP (LG) */}
+          <aside className="hidden lg:block lg:col-span-5">
             <div className="bg-[#0f172a] p-8 rounded-[30px] shadow-xl sticky top-28">
               <div className="flex items-center gap-3 mb-8">
                 <div className="w-1.5 h-6 bg-[#0fb34b] rounded-full" />

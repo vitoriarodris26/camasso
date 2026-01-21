@@ -29,23 +29,29 @@ export default function Solucoes() {
               </h2>
             </div>
 
-            <div className="flex justify-center mb-12 overflow-x-auto px-4 scrollbar-hide">
-              <div className="inline-flex flex-wrap p-2 bg-white rounded-[2.5rem] shadow-sm border border-gray-100 items-center gap-2">
-                {solutionCategories.map((cat) => (
-                  <button
-                    key={cat}
-                    onClick={() => setActiveTab(cat)}
-                    className={`px-6 py-2.5 rounded-full text-sm font-bold transition-all duration-300 whitespace-nowrap ${
-                      activeTab === cat
-                        ? "bg-[#008542] text-white shadow-md scale-105"
-                        : "bg-gray-100 text-gray-500 hover:bg-gray-200" 
-                    }`}
-                  >
-                    {cat}
-                  </button>
-                ))}
-              </div>
-            </div>
+<div className="flex justify-center mb-12 px-4">
+  <div className="flex items-center gap-2 md:gap-4 bg-[#22C55E] p-3 rounded-full overflow-x-auto scrollbar-hide max-w-full shadow-lg">
+    {solutionCategories.map((cat) => {
+      const isActive = activeTab === cat;
+      return (
+        <button
+          key={cat}
+          onClick={() => setActiveTab(cat)}
+          className={`px-6 py-2.5 rounded-full text-sm font-medium transition-all duration-300 whitespace-nowrap flex flex-col items-center gap-1 ${
+            isActive 
+              ? "bg-white text-[#008542] shadow-sm scale-105" 
+              : "text-white hover:bg-white/10"
+          }`}
+        >
+          {cat}
+          {isActive && (
+            <div className="w-8 h-[2px] bg-[#008542] rounded-full animate-in fade-in zoom-in duration-300" />
+          )}
+        </button>
+      );
+    })}
+  </div>
+</div>
 
             <div className="bg-gray-50 rounded-[3rem] p-6 md:p-10 border border-gray-100 shadow-sm">
               

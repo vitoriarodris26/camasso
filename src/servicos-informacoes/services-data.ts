@@ -90,10 +90,10 @@ desc: "CONHEÇA O ALUGUEL DE IMPRESSORAS SP NA CAMASSO: Escritórios e institui�
     slug: "comprar-pulseira-de-identificacao-hospitalar",
     category: "Identificação",
      galeria: [
-      "/servicos/aluguel-impressoras-04.jpg",
-      "/servicos/aluguel-impressoras-preco-03.jpg",
-      "/servicos/empresa-de-impressora-termica-02.png",
-         "/servicos/aluguel-impressoras-empresas-03.png",
+          "/servicos/pulseira-identificacao-recem-nascido-preco-02.jpg",
+      "/servicos/pulseira-hospitalar.jpg",
+      "/servicos/pulseira-classificacao-risco-preco-02.png",
+      "/servicos/empresa-pulseiras-identificacao-02.jpg",
     ],
     icon: ShoppingCart,
     image: "/assets/images/pulseira.jpg", 
@@ -141,7 +141,7 @@ desc: "DISTRIBUIDOR DE ETIQUETAS TÉRMICAS ÁGIL E QUALIFICADO: As etiquetas té
          "/servicos/aluguel-impressoras-empresas-03.png",
     ],
     image: "/assets/images/industrial.png", 
-    desc: "Como uma empresa de aluguel de impressoras experiente, a Camasso foca em proporcionar soluções que minimizam erros operacionais e aumentam a eficiência em escritórios e instituições de saúde. Nosso modelo de negócio destaca-se pelos atraentes contratos de comodato, onde fornecemos impressoras modernas que utilizam tecnologia de termotransferência direta — uma opção muito mais econômica por não exigir o uso de ribbon. Além do hardware, garantimos aos nossos clientes total suporte técnico para funcionamento e manipulação das máquinas, permitindo que as instituições foquem em suas atividades principais enquanto nós cuidamos da infraestrutura, reposição de insumos e manutenção funcional do parque de impressão."  },
+desc: "Com o objetivo de minimizar custos e melhorar a produtividade, muitas empresas têm buscado na locação de equipamentos um meio para atingir essa meta. O aluguel de impressoras para empresas é uma das formas cada vez mais utilizadas para melhorar a produtividade, facilitando a gestão dessa área e economizando recursos. Isso acontece porque o aluguel de impressoras para empresas é feito diretamente junto a empresas especializadas, como a Camasso Solução em Impressão. O foco da Camasso é proporcionar o aluguel de impressoras para empresas, entregando equipamentos de qualidade, repondo suprimentos e realizando atendimentos de excelência, para satisfazer a todos os clientes. Como essa é sua função principal, os serviços de aluguel de impressoras para empresas da Camasso facilitam a gestão do cliente, já que esta não precisa mais se preocupar com: Aquisição de equipamentos modernos e adequados para seu tipo de utilização; Manutenção e suporte técnico em caso de problemas; Reposição de suprimentos; Depreciação do equipamento; Modernização da planta de impressão; Gestão das impressões. Todas essas tarefas são assumidas pela Camasso, o que proporciona uma clara vantagem para quem opta pelo seu serviço de aluguel de impressoras para empresas. MELHOR SERVIÇO DE ALUGUEL DE IMPRESSORAS PARA EMPRESAS Para fornecer a melhor opção de aluguel de impressoras para empresas, a Camasso buscou se consolidar com um estoque de equipamentos modernos, sendo por exemplo, uma das principais fornecedoras da marca Brother, referência em impressoras para empresas. Através do seu formato de serviços, a Camasso proporciona um modelo de aluguel de impressoras para empresas econômico, oferecendo a alta eficiência de seus equipamentos, através do total controle quanto à sua produtividade. As soluções da Camasso também incluem recursos modernos, que permitem a impressão a partir de rede wifi e múltiplos equipamentos, proporcionando uma rede móvel de impressão, facilidade atual solicitada por muitas empresas. Além disso, o sistema de controle da Camasso permite a visualização fácil quanto ao número de impressões, estabelecimento de restrições e acessos, garantindo a devida gestão interna da área. A Camasso é a empresa certa para que empresas de todo o Brasil estabeleçam contratos de locação de impressoras, garantindo total suporte no fornecimento de equipamentos modernos. Para saber mais sobre Aluguel de impressoras para empresas Ligue para 11 5567-7200 ou clique aqui e entre em contato por email."},
   {
     id: 10,
     title: "Empresa de Etiquetas Térmicas",
@@ -210,10 +210,10 @@ desc: "VANTAGENS DA PARCERIA COM UMA EMPRESA DE ETIQUETAS TÉRMICAS: Todo tipo d
     category: "Insumos",
     icon: Tag,
          galeria: [
-      "/servicos/pulseira-identificacao-recem-nascido-preco-02.jpg",
-      "/servicos/pulseira-identificacao-recem-nascido-preco-01.jpg",
-      "/servicos/empresa-pulseiras-identificacao-02.jpg",
+                "/servicos/etiqueta-termica-onde-comprar-02.jpg",
       "/servicos/empresa-etiquetas-termicas-02.jpg",
+      "/servicos/etiqueta-termica-onde-comprar-03.jpg",
+      "/servicos/etiqueta-identificacao-hospitalar-03.jpg",
     ],
     image: "/servicos/etiqueta-identificacao-hospitalar-04.jpg",
     desc: "ETIQUETA HOSPITALAR AUXILIA ORGANIZAÇÃO DE ATENDIMENTO: A etiqueta hospitalar é usada na identificação de pacientes e visitantes. É importante para controlar quem entra e sai do estabelecimento. A identificação do paciente deve ser feita logo na entrada para garantir o controle no atendimento. Com a etiquetagem correta, o paciente é direcionado ao consultório, às salas de triagem e a exames como ultrassons e salas de raio X. A Camasso Solução em Impressão, empresa prestadora de serviços de impressão, trabalha com o fornecimento de impressora térmica, que imprimem etiquetas em menos tempo e com menos gasto. As etiquetas hospitalares carregam dados como o protocolo de atendimento, o nome do paciente, o sexo e a idade. Os dados são importantes para que os profissionais da instituição confiram as informações antes de realizar os atendimentos. A etiqueta hospitalar evita trocas na ordem dos atendimentos e inversão na realização de exames. ETIQUETA HOSPITALAR COM CONSULTORIA DE IMPRESSÃO: Ao contratar a fabricação de etiqueta hospitalar, o cliente também recebe a impressora que fará as impressões. A depender do projeto contratado, as impressoras saem sem custo para o cliente. Antes de fechar o negócio, a Camasso Solução em Impressão estuda as necessidades de impressão de etiquetas e outros materiais de identificação. Assim, es possível determinar quantos equipamentos são recomendados para atender à demanda de impressão com eficiência e economia. Além de etiqueta hospitalar, a empresa fornece: impressão de pulseiras para hospitais; locação de impressoras; e outsourcing de impressão. O outsourcing de impressão é uma consultoria recomendada para pequenas e médias empresas que desejam diminuir os gatos. O serviço é um investimento que ensina os usuários a ter disciplina no uso das impressoras. Com o outsourcing de impressão também é possível rastrear documentos que foram impressos, o que facilita o controle do cliente sobre os materiais impressos. EXPERIÊNCIA NA FABRICAÇÃO DE ETIQUETAS DE IDENTIFICAÇÃO: A Camasso Solução em Impressão trabalha com a fabricação de etiqueta hospitalar há mais de dez anos. A experiência da empresa faz com que sejam utilizadas impressoras tecnológicas e matérias-primas de excelente qualidade. A empresa possui certificações de qualidade que fazem diferença na agilidade do atendimento oferecido a clientes de todo o país."
@@ -225,10 +225,10 @@ desc: "VANTAGENS DA PARCERIA COM UMA EMPRESA DE ETIQUETAS TÉRMICAS: Todo tipo d
     category: "Insumos",
     icon: Tag,
          galeria: [
-      "/servicos/pulseira-identificacao-recem-nascido-preco-02.jpg",
+           "/servicos/etiqueta-termica-onde-comprar-02.jpg",
+           "/servicos/etiqueta-identificacao-hospitalar-03.jpg",
       "/servicos/empresa-etiquetas-termicas-02.jpg",
-      "/servicos/empresa-pulseiras-identificacao-02.jpg",
-      "/servicos/etiqueta-identificacao-hospitalar-03.jpg",
+      "/servicos/etiqueta-termica-onde-comprar-03.jpg",
     ],
     image: "/servicos/etiqueta-identificacao-hospitalar-03.jpg",
 desc: "ONDE ENCONTRAR EMPRESA DE ETIQUETA DE IDENTIFICAÇÃO: A identificação de produtos, ferramentas e equipamentos dos mais diversos ambientes é essencial, uma vez que possibilita a fácil localização do que se necessita e, além disso, garante a segurança no manuseio dos itens. Os mais diversos ambientes – sejam eles empresariais, comerciais ou até mesmo hospitalares – utilizam a etiqueta de identificação para o fornecimento de informações necessárias para o uso adequado do produto. Porém, é essencial contar com uma empresa especializada que forneça os equipamentos adequados para a impressão de tais itens, como a Camasso Solução em Impressão. IMPRESSÃO DE QUALIDADE DE ETIQUETA DE IDENTIFICAÇÃO: A etiqueta de identificação, quando impressa por uma empresa especializada no segmento, possibilita a fácil leitura das informações contidas nos elementos colados junto a embalagens, instrumentos, equipamentos e maquinários diversos. Por meio de procedimentos específicos é possível fornecer ao mercado etiqueta de identificação produzida por impressoras térmicas. Esse tipo de etiqueta apresenta função autoadesiva, com alta resistência à umidade e a variações de temperatura. Uma das grandes vantagens em contratar uma empresa especializada em fornecer os equipamentos certos para a produção de etiqueta de identificação é a possibilidade de contar com um produto personalizado conforme a necessidade, com total aderência à superfície, assim como contendo todas as informações que o cliente julgar necessárias. A Camasso Solução em Impressão fornece ao mercado uma diversidade de produtos e equipamentos que vão além de etiqueta de identificação. São alguns exemplos: impressoras de pulseira de identificação; impressão de etiquetas térmicas; pulseiras hospitalares; locação de impressoras a laser; e locação de impressoras térmicas. Portanto, é possível notar a importância da etiqueta de identificação nos mais diversos ambientes, necessitando que sua elaboração seja feita de forma competente e priorizando aspectos de qualidade, tornando todas as informações legíveis. Sendo assim, ao buscar por uma empresa competente é possível contar com a Camasso Solução em Impressão. EMPRESA QUE FORNECE IMPRESSORAS DE ETIQUETA PARA IDENTIFICAÇÃO: Com anos de experiência no segmento, a Camasso Solução em Impressão é uma empresa que atua, por meio de estrutura própria, no fornecimento de equipamentos de impressão. A empresa, responsável e com garantia de todos os seus processos, atende clientes de todo o Brasil."
@@ -240,10 +240,10 @@ desc: "ONDE ENCONTRAR EMPRESA DE ETIQUETA DE IDENTIFICAÇÃO: A identificação 
     category: "Insumos",
     icon: Tag,
          galeria: [
+           "/servicos/etiqueta-termica-onde-comprar-02.jpg",
       "/servicos/empresa-etiquetas-termicas-02.jpg",
-      "/servicos/empresa-pulseiras-identificacao-02.jpg",
-         "/servicos/pulseira-hospitalar.jpg",
-      "/servicos/pulseira-identificacao-recem-nascido-preco-01.jpg",
+      "/servicos/etiqueta-termica-onde-comprar-03.jpg",
+      "/servicos/etiqueta-identificacao-hospitalar-03.jpg",
     ],
     image: "/servicos/etiqueta-identificacao-hospitalar-04.jpg",
 desc: "UTILIDADE DA PULSEIRA OU ETIQUETA DE IDENTIFICAÇÃO HOSPITALAR: Ambientes médicos ou hospitalares utilizam elementos para a identificação de pacientes e acompanhantes. Esses elementos podem ser pulseiras de identificação ou até mesmo etiquetas coladas nas roupas dos visitantes. A solução visa contribuir para o controle de acesso às dependências da instituição, além de auxiliar na triagem dos pacientes. FORNECIMENTO DE ETIQUETA DE IDENTIFICAÇÃO COM IMPRESSORA TÉRMICA: Em seu fornecimento de etiquetas ou pulseiras de identificação em hospitais, a Camasso Solução em Impressão oferece: fornecimento de pulseiras de acordo com o Protocolo de Manchester; e fornecimento do equipamento para impressão sobre pulseiras de identificação. O fornecimento da etiqueta de identificação hospitalar em cores que correspondem aos padrões do Protocolo de Manchester contribui para otimizar o atendimento aos pacientes. Trata-se de uma divisão de cores que tem como função classificar o nível de risco do quadro apresentado de cada paciente. A partir dessa triagem, a distinção das cores da pulseira ou etiqueta de identificação hospitalar determina quais pacientes deverão ser atendidos com maior urgência. Isso evita que pessoas com casos graves passem mais tempo do que o necessário no ambiente de espera, o que poderia agravar sua situação. Para corresponder ao Protocolo, a etiqueta de identificação hospitalar é fornecida nas cores: vermelho (para casos emergenciais), laranja (para casos muito urgentes), amarelo (para urgências), verde (para casos pouco urgentes) e azul (para casos não urgentes). Junto com as unidades da etiqueta de identificação hospitalar, a empresa fornece também a impressora térmica a ser utilizada no processo de impressão das etiquetas. A impressão térmica é ideal para garantir a legibilidade dos dados impressos sobre as etiquetas, contribuindo para a identificação dos pacientes e garantindo maior controle de acesso aos ambientes internos do hospital. ETIQUETA DE IDENTIFICAÇÃO HOSPITALAR COM CÓDIGO DE BARRAS: A Camasso Solução em Impressão oferece o serviço de impressão de etiqueta de identificação hospitalar com a opção de etiquetas com código de barras. A identificação pelo código de barras proporciona agilidade e eficiência ao controle de acesso ao ambiente hospitalar. Com a utilização de leitores de código de barras, os profissionais responsáveis pelo controle das entradas e saídas do ambiente podem contar com auxílio do sistema para a verificação da autenticidade da etiqueta ou pulseira, o que evita fraudes e confere maior proteção à instituição e aos seus pacientes."
@@ -255,9 +255,9 @@ desc: "UTILIDADE DA PULSEIRA OU ETIQUETA DE IDENTIFICAÇÃO HOSPITALAR: Ambiente
     category: "Insumos",
     icon: Tag,
           galeria: [
-      "/servicos/pulseira-identificacao-recem-nascido-preco-02.jpg",
+      "/servicos/etiqueta-termica-onde-comprar-02.jpg",
       "/servicos/empresa-etiquetas-termicas-02.jpg",
-      "/servicos/empresa-pulseiras-identificacao-02.jpg",
+      "/servicos/etiqueta-termica-onde-comprar-03.jpg",
       "/servicos/etiqueta-identificacao-hospitalar-03.jpg",
     ],
     image: "/servicos/etiqueta-identificacao-hospitalar-03.jpg",
@@ -269,10 +269,10 @@ desc: "FORNECIMENTO DE ETIQUETA PARA IMPRESSORA TÉRMICA: O trabalho da Camasso 
     category: "Insumos",
     icon: ShoppingCart,
           galeria: [
-      "/servicos/pulseira-identificacao-recem-nascido-preco-02.jpg",
+       "/servicos/etiqueta-termica-onde-comprar-02.jpg",
+       "/servicos/etiqueta-termica-onde-comprar-03.jpg",
+       "/servicos/etiqueta-identificacao-hospitalar-03.jpg",
       "/servicos/empresa-etiquetas-termicas-02.jpg",
-      "/servicos/empresa-pulseiras-identificacao-02.jpg",
-      "/servicos/etiqueta-identificacao-hospitalar-03.jpg",
     ],
     image: "/servicos/etiqueta-termica-onde-comprar-03.jpg", 
 desc: "ETIQUETA TÉRMICA ONDE COMPRAR COM QUALIDADE? A etiqueta térmica onde comprar é uma forma fácil de rotular produtos e caixas, assim como facilitar a organização de embalagens e estoques, estando disponíveis em opções que contém código de barras, preços, radiofrequência e outros recursos. O processo de impressão por termotransferência garante uma fixação adequada das informações, conforme a necessidade do tempo de utilização de cada etiqueta autoadesiva. Existe a impressão térmica direta e a impressão por transferência térmica, que dependem ou não do uso de ribbon, cada uma é eficaz para um tipo de utilização que será feita. A escolha entre as técnicas de impressão e do material utilizado fica mais fácil com a assessoria de uma empresa especializada como a Camasso Solução em Impressão. Na busca por etiqueta térmica onde comprar, a Camasso é o local certo. Contando com uma estrutura moderna e volumosa, a Camasso disponibiliza diversas opções de etiquetas térmicas para utilização em inúmeras atividades. ETIQUETA TÉRMICA ONDE COMPRAR A OPÇÃO CERTA: As soluções da Camasso incluem total suporte e estrutura para fornecer etiqueta térmica onde comprar um insumo de qualidade é tranquilo, garantindo total reposição do material de acordo com o volume utilizado por cada cliente. Uma das vantagens da Camasso é disponibilizar etiqueta térmica onde comprar ao redor de todo o Brasil, entregando com agilidade esse insumo e seu portfólio de soluções em impressão para todos os locais. Junto com a etiqueta térmica onde comprar, a Camasso disponibiliza sua solução de Outsourcing de Etiquetas em que: Todo o processo de etiquetagem do cliente é avaliado; As melhores soluções, mais econômicas e eficazes, são planejadas especificamente para serem aplicadas em cada cliente; Modernos equipamentos são disponibilizados para a planta operacional; Total reposição dos insumos necessários para atividade é feito, sendo, por exemplo, o local para etiqueta térmica onde comprar; Processo de trabalho de etiquetagem é consolidado. A Camasso Solução em Impressão tem etiqueta térmica onde comprar, entregando com prazo e preço justo um insumo de excelência para ser utilizado na rotina produtiva. Com experiência na área, a Camasso consegue ser a fornecedora ideal de insumos de impressão de etiquetas térmicas, assim como cuidar do processo como um todo sendo terceirizada."
@@ -282,11 +282,11 @@ desc: "ETIQUETA TÉRMICA ONDE COMPRAR COM QUALIDADE? A etiqueta térmica onde co
     slug: "etiquetas-termicas-insumo",
     category: "Insumos",
     icon: Tag,
-          galeria: [
-            "/servicos/empresa-etiquetas-termicas-02.jpg",
-            "/servicos/empresa-pulseiras-identificacao-02.jpg",
-            "dist/servicos/etiqueta-identificacao-hospitalar-03.jpg",
-      "/servicos/pulseira-identificacao-recem-nascido-preco-02.jpg",
+            galeria: [
+              "/servicos/etiqueta-termica-onde-comprar-02.jpg",
+      "/servicos/empresa-etiquetas-termicas-02.jpg",
+      "/servicos/etiqueta-termica-onde-comprar-03.jpg",
+      "/servicos/etiqueta-identificacao-hospitalar-03.jpg",
     ],
     image: "/servicos/etiqueta-termica-onde-comprar-02.jpg",
 desc: "A participação das etiquetas térmicas na identificação de produtos: As etiquetas térmicas são peças fundamentais nos processos de identificação de produtos, controle de estoque e logística em ambientes industriais e comerciais. Essas etiquetas são especialmente desenvolvidas para serem utilizadas em impressoras que aplicam calor diretamente no material, dispensando o uso de tinta ou ribbon. Esse método de impressão térmica proporciona uma alta definição na impressão e uma excelente aderência às superfícies, tornando as etiquetas ideais para diversas aplicações. Vantagens na gestão de negócios: Com sua praticidade e baixo custo, as etiquetas térmicas são amplamente adotadas em diferentes segmentos, tais como supermercados, farmácias, transportadoras e centros de distribuição. A possibilidade de personalização em diversos tamanhos e materiais faz com que essas etiquetas se adaptem facilmente às necessidades específicas de cada negócio, tornando a identificação de produtos e o controle de estoque mais eficientes e organizados. Camasso: referência em soluções de identificação: A Camasso, empresa brasileira sediada em Barueri, São Paulo, é reconhecida no mercado por oferecer soluções completas e inovadoras em identificação e impressão. Atuando nos setores hospitalar, logístico e industrial, a empresa disponibiliza uma ampla gama de produtos e serviços, incluindo pulseiras de identificação hospitalar, impressoras térmicas, ribbons de alta qualidade e, é claro, etiquetas autoadesivas. Serviços personalizados e qualidade proporcionada: Um dos grandes diferenciais da Camasso é o seu atendimento nacional com logística eficiente, aliado ao uso de tecnologia avançada, como o Ribbon Silver, que proporciona uma economia significativa no consumo de fita de impressão. Além disso, a empresa oferece soluções personalizadas, adaptadas às necessidades de cada cliente, e práticas sustentáveis que promovem a economia de recursos e a preservação do meio ambiente. Benefícios das etiquetas da Camasso: As etiquetas térmicas da Camasso são desenvolvidas com materiais de alta qualidade, possibilitando durabilidade e resistência. Com opções de personalização e tamanhos variados, as etiquetas atendem às demandas específicas de cada segmento, proporcionando uma identificação precisa e eficiente. Além disso, a empresa oferece certificações que atestam sua qualidade e compromisso com a excelência em todos os serviços prestados. Entre em contato com a Camasso e conheça nossas soluções: Se você busca por soluções de identificação de qualidade para o seu negócio, não deixe de entrar em contato com a Camasso. Nossa equipe está preparada para oferecer as melhores opções em etiquetas térmicas, impressoras e serviços de impressão, possibilitando eficiência, economia e sustentabilidade para a sua empresa."
@@ -298,9 +298,9 @@ desc: "A participação das etiquetas térmicas na identificação de produtos: 
     category: "Insumos",
     icon: Tag,
           galeria: [
-      "/servicos/pulseira-identificacao-recem-nascido-preco-02.jpg",
+                 "/servicos/etiqueta-termica-onde-comprar-02.jpg",
       "/servicos/empresa-etiquetas-termicas-02.jpg",
-      "/servicos/empresa-pulseiras-identificacao-02.jpg",
+      "/servicos/etiqueta-termica-onde-comprar-03.jpg",
       "/servicos/etiqueta-identificacao-hospitalar-03.jpg",
     ],
     image: "/servicos/etiqueta-termica-onde-comprar-02.jpg",
@@ -312,11 +312,11 @@ desc: "A CAMASSO, SOLUÇÃO EM IMPRESSÃO, TEM A MELHOR OPÇÃO DE ETIQUETAS TÉ
     slug: "etiquetas-termicas-preco",
     category: "Insumos",
     icon: Tag,
-          galeria: [
-      "/servicos/pulseira-identificacao-recem-nascido-preco-02.jpg",
+       galeria: [
+                 "/servicos/etiqueta-termica-onde-comprar-02.jpg",
       "/servicos/empresa-etiquetas-termicas-02.jpg",
-      "/servicos/empresa-pulseiras-identificacao-02.jpg",
       "/servicos/etiqueta-identificacao-hospitalar-03.jpg",
+      "/servicos/etiqueta-termica-onde-comprar-03.jpg",
     ],
     image: "/servicos/empresa-etiquetas-termicas-01.jpg",
 desc: "ETIQUETAS TÉRMICAS PREÇO COMPATÍVEL COM A NECESSIDADE DO CLIENTE: A Camasso Solução em Impressão terceiriza serviços de impressão para clientes em diversos ramos. Realizando análises detalhadas e oferecendo os equipamentos e materiais mais apropriados para o trabalho do cliente, a Camasso permite a impressão de etiquetas térmicas preço condizente com as necessidades da empresa atendida. ESCOLHA DE EQUIPAMENTOS PARA IMPRESSÃO DE ETIQUETAS TÉRMICAS PREÇO: Para a determinação do parque de impressão mais adequado para a produção de etiquetas térmicas preço, são avaliados pela equipe da Camasso vários aspectos do trabalho da empresa atendida. São considerados, entre outros aspectos: Estrutura da empresa (se possui impressoras próprias ou não); Material sobre o qual será aplicada a etiqueta; Tipo de dado a ser impresso (código, identificador etc.); Tipo de etiqueta (fixa ou removível). Podem ser encontradas etiquetas autoadesivas permanentes, removíveis, em borracha, em acrílico e com gramaturas diversas. Havendo inúmeros tipos de etiquetas térmicas, diversas possibilidades de materiais e muitas opções de preços, a Camasso considera de essencial importância empregar todo o seu conhecimento técnico para orientar seus clientes. Essa orientação toma como base as informações coletadas durante as análises realizadas pelos profissionais da Camasso. As análises partem de acompanhamentos das atividades e níveis de consumo da empresa, de modo a conhecer o seu funcionamento e ter um parâmetro para as necessidades de estoque e tipos de equipamento. O objetivo é orientar o cliente em meio ao vasto ramo das etiquetas térmicas preço variável, permitindo que seja feita a escolha mais apropriada para a aplicação a ser realizada. A escolha correta dos materiais para impressões térmicas garante economia à empresa atendida, fornecendo serviços precisos e que realmente contribuam para o seu tipo de atuação no mercado. TERCEIRIZAÇÃO DE IMPRESSORAS PARA ETIQUETAS TÉRMICAS PREÇO: Os equipamentos fornecidos para a impressão de etiquetas térmicas preço possuem sensores para a identificação do início e fim de cada etiqueta. Esse recurso permite aos equipamentos da Camasso precisão nos alinhamentos e garantia de maior aproveitamento da superfície da etiqueta. Os sensores são úteis também por contribuir para a segurança e efetividade das impressões, evitando que partes dos dados sejam impressos fora do limite de corte da etiqueta e se percam, tornando-se ilegíveis."
@@ -327,10 +327,10 @@ desc: "ETIQUETAS TÉRMICAS PREÇO COMPATÍVEL COM A NECESSIDADE DO CLIENTE: A Ca
     slug: "etiquetas-transferencia-termica",
     category: "Insumos",
     icon: Tag,
-          galeria: [
-      "/servicos/pulseira-identificacao-recem-nascido-preco-02.jpg",
+         galeria: [
+                 "/servicos/etiqueta-termica-onde-comprar-02.jpg",
+                 "/servicos/etiqueta-termica-onde-comprar-03.jpg",
       "/servicos/empresa-etiquetas-termicas-02.jpg",
-      "/servicos/empresa-pulseiras-identificacao-02.jpg",
       "/servicos/etiqueta-identificacao-hospitalar-03.jpg",
     ],
     image: "/servicos/etiqueta-termica-onde-comprar-02.jpg",
@@ -342,10 +342,10 @@ desc: "PARA QUE SERVEM AS ETIQUETAS TRANSFERÊNCIA TÉRMICA: Dentro de um proces
     category: "Fabricação",
     icon: Factory,
           galeria: [
-      "/servicos/pulseira-identificacao-recem-nascido-preco-02.jpg",
-      "/servicos/empresa-pulseiras-identificacao-02.jpg",
-      "/servicos/etiqueta-identificacao-hospitalar-03.jpg",
+            "/servicos/etiqueta-termica-onde-comprar-02.jpg",
+            "/servicos/etiqueta-termica-onde-comprar-03.jpg",
       "/servicos/empresa-etiquetas-termicas-02.jpg",
+      "/servicos/etiqueta-identificacao-hospitalar-03.jpg",
     ],
     image: "/servicos/pulseira-classificacao-02.png",
 desc: "FABRICA DE ETIQUETA HOSPITALAR GARANTE A IDENTIFICAÇÃO DO PACIENTE: Ter critérios ao escolher o local de fabrica de etiqueta hospitalar é essencial para obter um produto com qualidade na impressão. A Camasso Solução em Impressão é uma empresa especializada em impressões de pulseiras e etiquetas e, por isso, oferece etiquetas de identificação a hospitais e clínicas. Essas etiquetas são extremamente importantes, pois contêm dados que identificam o paciente e/ou o acompanhante. A uniformidade da tinta nas etiquetas, bem como a facilidade de leitura da identificação do paciente, é essencial, para o atendimento e prestação de socorro – principalmente em casos de emergência. A etiqueta hospitalar também demanda boa aderência, para que o paciente não perca a identificação durante a consulta. As impressoras térmicas da prestadora de serviços são especializadas na impressão de etiquetas hospitalares com grande durabilidade. Trata-se de equipamentos extremamente econômicos, pois a impressão por aquecimento dispensa o uso de tinta, o que diminui muito os custos com impressão de etiquetas. FABRICA DE ETIQUETA HOSPITALAR AGILIZA ATENDIMENTO: A Camasso Solução em Impressão é uma fabrica de etiqueta hospitalar que fornece equipamentos ao cliente para que ele possa realizar os serviços de impressão na empresa. A empresa aluga as impressoras, ou fornece os equipamentos para o cliente, a depender das necessidades dele. Além do equipamento, a prestadora de serviços também oferece material para impressão. A fabrica de etiqueta hospitalar tem como vantagens: repor os estoques de etiqueta; oferecer manutenção mensal dos equipamentos; e fornecer impressoras atualizadas e em perfeito estado. Outras vantagens proporcionadas pela contratação de uma fabrica de etiqueta hospitalar para gerir as demandas da empresa é que as impressões são realizadas rapidamente, o que agiliza o atendimento no hospital. Outro benefício: as máquinas são silenciosas, ou seja, não desconcentram nem incomodam pacientes e trabalhadores do hospital. ETIQUETAS PODEM CONTER DIVERSAS INFORMAÇÕES: A fabrica de etiqueta hospitalar também pode registrar outras informações na etiqueta, além da identificação do cliente. É possível fazer etiquetas com valores, etiquetas com nomes de medicação, etiquetas com nomes de profissionais etc. Em todos os casos, a Camasso Solução em Impressão trabalha para garantir tranquilidade e satisfação para o cliente, com o melhor funcionamento dos espaços de atendimento."  },
@@ -356,9 +356,9 @@ desc: "FABRICA DE ETIQUETA HOSPITALAR GARANTE A IDENTIFICAÇÃO DO PACIENTE: Ter
     category: "Fabricação",
     icon: Factory,
           galeria: [
-      "/servicos/pulseira-identificacao-recem-nascido-preco-02.jpg",
-      "/servicos/empresa-etiquetas-termicas-02.jpg",
-      "/servicos/empresa-pulseiras-identificacao-02.jpg",
+            "/servicos/empresa-etiquetas-termicas-02.jpg",
+            "/servicos/etiqueta-termica-onde-comprar-03.jpg",
+            "/servicos/etiqueta-termica-onde-comprar-02.jpg",
       "/servicos/etiqueta-identificacao-hospitalar-03.jpg",
     ],
     image: "/servicos/etiqueta-termica-onde-comprar-02.jpg",
@@ -760,7 +760,7 @@ desc: "A Center Camasso é uma empresa 100% nacional que se destaca por oferecer
           galeria: [
       "/servicos/pulseira-hospitalar.jpg",
       "/servicos/empresa-pulseiras-identificacao-02.jpg",
-      "/servicos/pulseira-hospitalar.jpg",
+      "/produtos/paciente.png",
       "/servicos/pulseira-identificacao-recem-nascido-preco-01.jpg",
     ],
     image: "/assets/images/puseira-branca.webp", 

@@ -1,11 +1,11 @@
 import { useState } from "react";
 import { Search, ExternalLink, ChevronDown } from "lucide-react";
-import { Link } from "react-router-dom"; // Mudança: Import do react-router-dom
+import { Link } from "react-router-dom"; 
 
 import { SERVICOS_CAMASSO } from "./services-data";
 import HeroActivities from "./hero";
 import Header from "../header/header";
-import Footer from "../components/footer"; // Ajuste o caminho se necessário
+import Footer from "../components/footer";
 import { ROUTES } from "../lib/routes";
 
 export default function Activities() {
@@ -71,7 +71,7 @@ export default function Activities() {
           {filtered.map((servico) => (
             <Link 
               key={servico.id} 
-              to={ROUTES.SERVICO_DETALHE(servico.slug)} // Mudança: 'to' em vez de 'href'
+              to={ROUTES.SERVICO_DETALHE(servico.slug)} 
               className="group bg-white rounded-2xl overflow-hidden border border-gray-200 hover:shadow-2xl transition-all duration-500 flex flex-col"
             >
               <div className="relative aspect-square overflow-hidden bg-gray-100">
