@@ -10,7 +10,6 @@ export const ROUTES = {
   SUPORTE: "/help-desk",
   TRABALHE_CONOSCO: "https://www.linkedin.com/company/camasso/jobs/",
   AREA_CLIENTE: "https://camasso.tomticket.com/",
-  // SERVICO_DETALHE: (slug: string) => `/servicos-detalhe/${slug}/`,
   SERVICO_DETALHE: (slug) => `/servicos/${slug}`
 };
 
