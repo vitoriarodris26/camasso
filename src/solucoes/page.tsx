@@ -2,9 +2,9 @@ import { useState } from "react";
 import { Lightbulb, ArrowRight, CheckCircle2 } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import { ROUTES } from "../lib/routes";
-import Header from "../header/header";
 import { solutionCategories, solutionsData } from "./solucoes-data";
 import Footer from "../components/footer";
+import Hero from "../components/hero";
 
 export default function Solucoes() {
   const [activeTab, setActiveTab] = useState(solutionCategories[0]);
@@ -13,112 +13,104 @@ export default function Solucoes() {
 
   return (
     <div className="flex flex-col min-h-screen bg-white">
-      <Header />
+      <Hero />
 
-      <main className="flex-grow pt-28 md:pt-32">
-        <section className="bg-white py-12" id="solucoes">
-          <div className="max-w-[1440px] mx-auto px-4 md:px-10">
+      <main className="flex-grow pt-24 md:pt-28">
+        <section className="bg-white py-10" id="solucoes">
+          <div className="max-w-7xl mx-auto px-4 md:px-6">
             
-            {/* Título da Seção */}
-            <div className="text-center mb-12">
-              <span className="border border-green-600 bg-green-100 text-green-600 px-4 py-1.5 rounded-full text-xs font-bold uppercase inline-flex items-center gap-2">
-                <Lightbulb size={16} />
+            <div className="text-center mb-10">
+              <span className="border border-green-600 bg-green-100 text-green-600 px-3 py-1 rounded-full text-[11px] font-bold uppercase inline-flex items-center gap-2">
+                <Lightbulb size={14} />
                 Nossas Soluções
               </span>
-              <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 p-5">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mt-4">
                 Respostas inteligentes para <span className="text-[#008542]">cada setor</span>
               </h2>
             </div>
 
-            {/* RECOLOCADO: Menu de Categorias (Tabs) */}
-            <div className="flex justify-center mb-16 overflow-x-auto px-6 scrollbar-hide">
-              <div className="flex gap-4 md:gap-12 border-b border-gray-100">
+            <div className="flex justify-center mb-12 overflow-x-auto px-4 scrollbar-hide">
+              <div className="inline-flex flex-wrap p-2 bg-white rounded-[2.5rem] shadow-sm border border-gray-100 items-center gap-2">
                 {solutionCategories.map((cat) => (
                   <button
                     key={cat}
                     onClick={() => setActiveTab(cat)}
-                    className={`pb-4 text-sm md:text-base transition-all relative whitespace-nowrap px-4 ${
+                    className={`px-6 py-2.5 rounded-full text-sm font-bold transition-all duration-300 whitespace-nowrap ${
                       activeTab === cat
-                        ? "text-[#008542] font-bold"
-                        : "text-gray-400 hover:text-[#008542]"
+                        ? "bg-[#008542] text-white shadow-md scale-105"
+                        : "bg-gray-100 text-gray-500 hover:bg-gray-200" 
                     }`}
                   >
                     {cat}
-                    {activeTab === cat && (
-                      <span className="absolute bottom-0 left-0 w-full h-[3px] bg-[#008542] rounded-t-full" />
-                    )}
                   </button>
                 ))}
               </div>
             </div>
 
-            {/* Card Principal Largo */}
-            <div className="bg-gray-50 rounded-[3rem] p-8 md:p-16 border border-gray-100 shadow-sm w-full">
+            <div className="bg-gray-50 rounded-[3rem] p-6 md:p-10 border border-gray-100 shadow-sm">
               
-              <div className="w-full mb-12">
-                <div className="bg-[#E8F5EE] text-[#008542] w-fit px-4 py-1 rounded-full text-[10px] font-bold uppercase mb-6 tracking-widest border border-[#D1EADF]">
+              <div className="mb-8">
+                <div className="bg-[#E8F5EE] text-[#008542] w-fit px-3 py-0.5 rounded-full text-[9px] font-bold uppercase mb-4 tracking-widest border border-[#D1EADF]">
                   Foco em {activeTab}
                 </div>
-                <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 w-full">
+                <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
                   {content.title}
                 </h3>
-                <p className="text-gray-600 text-lg leading-relaxed w-full">
+                <p className="text-gray-600 text-base leading-relaxed">
                   {content.description}
                 </p>
               </div>
 
-              {/* Grid de Imagens */}
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12 w-full">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
                 {content.images.map((img, index) => (
-                  <div key={index} className="relative h-72 rounded-[2.5rem] overflow-hidden group shadow-md">
+                  <div key={index} className="relative h-48 rounded-2xl overflow-hidden group shadow-sm">
                     <img
                       src={img}
-                      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-                      alt={`${activeTab} ${index}`}
+                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                      alt={activeTab}
                     />
                   </div>
                 ))}
               </div>
 
-              <div className="bg-white rounded-[2.5rem] p-10 md:p-14 mb-12 border border-gray-100 text-gray-700 leading-relaxed text-base md:text-lg shadow-sm w-full">
-                <div className="w-full">
+              <div className="bg-white rounded-2xl p-6 md:p-8 mb-8 border border-gray-100 text-gray-700 leading-relaxed text-sm md:text-base shadow-sm">
+                <div>
                   {content.detailedText.paragraphs.map((paragraph, idx) => (
                     <p 
                       key={idx} 
-                      className="mb-6 w-full max-w-none" 
+                      className="mb-4 last:mb-0" 
                       dangerouslySetInnerHTML={{ __html: paragraph }}
                     />
                   ))}
                 </div>
 
-                <div className="pt-8 border-t border-gray-100 w-full">
+                <div className="pt-6 mt-6 border-t border-gray-100">
                   {content.detailedText.footerNotes.map((note, idx) => (
                     <p 
                       key={idx} 
-                      className="font-bold mt-4 w-full max-w-none"
+                      className="font-bold text-sm text-gray-900"
                       dangerouslySetInnerHTML={{ __html: note }}
                     />
                   ))}
                 </div>
               </div>
 
-              {/* Footer do Card com Features e Botão */}
-              <div className="flex flex-col lg:flex-row items-center justify-between gap-8 pt-10 border-t border-gray-200 w-full">
-                <div className="flex flex-wrap justify-center lg:justify-start gap-8">
+              <div className="flex flex-col lg:flex-row items-center justify-between gap-6 pt-8 border-t border-gray-200">
+                <div className="flex flex-wrap justify-center lg:justify-start gap-6">
                   {content.features.map((feature, idx) => (
-                    <div key={idx} className="flex items-center gap-3 text-gray-700">
-                      <CheckCircle2 className="text-[#00D37F]" size={22} />
-                      <span className="font-bold text-base">{feature}</span>
+                    <div key={idx} className="flex items-center gap-2 text-gray-700">
+                      <CheckCircle2 className="text-[#00D37F]" size={18} />
+                      <span className="font-bold text-sm uppercase">{feature}</span>
                     </div>
                   ))}
                 </div>
 
                 <button 
                   onClick={() => navigate(ROUTES.CONTATO)}
-                  className="group flex items-center gap-3 bg-[#008542] text-white px-10 py-5 rounded-2xl font-bold hover:bg-[#006d36] transition-all active:scale-95 shadow-xl whitespace-nowrap"
+                  className="group flex items-center gap-2 bg-[#008542] text-white px-8 py-4 rounded-xl font-bold hover:bg-[#006d36] transition-all active:scale-95 shadow-lg whitespace-nowrap text-sm uppercase tracking-wider"
                 >
                   Solicitar Consultoria
-                  <ArrowRight size={22} className="group-hover:translate-x-1 transition-transform" />
+                  <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
                 </button>
               </div>
             </div>

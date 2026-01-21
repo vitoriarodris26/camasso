@@ -9,11 +9,21 @@ export default function Catalogos() {
   const [searchTerm, setSearchTerm] = useState("");
 
   const filteredAndSorted = useMemo(() => {
-    return CATALOGOS_DATA
+    const sorted = CATALOGOS_DATA
       .filter((item) =>
         item.title.toLowerCase().includes(searchTerm.toLowerCase())
       )
       .sort((a, b) => a.title.localeCompare(b.title));
+
+    const half = Math.ceil(sorted.length / 2);
+    const reordered: typeof CATALOGOS_DATA = [];
+
+    for (let i = 0; i < half; i++) {
+      if (sorted[i]) reordered.push(sorted[i]);
+      if (sorted[i + half]) reordered.push(sorted[i + half]);
+    }
+
+    return reordered;
   }, [searchTerm]);
 
   return (

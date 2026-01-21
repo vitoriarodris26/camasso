@@ -33,7 +33,6 @@ export default function CertificacoesPage() {
                   key={cert.id}
                   className="flex flex-col bg-white border border-gray-100 rounded-[32px] p-6 hover:shadow-xl transition-all duration-300"
                 >
-                  {/* Container da Imagem */}
                   <div className="relative w-full aspect-[4/3] bg-gray-50 rounded-[24px] border border-gray-50 p-8 flex items-center justify-center overflow-hidden group">
                     <img
                       src={cert.image}
@@ -42,7 +41,6 @@ export default function CertificacoesPage() {
                     />
                   </div>
 
-                  {/* Conteúdo de Texto */}
                   <div className="mt-8 flex flex-col flex-1">
                     <span className="text-[11px] font-bold text-green-600 uppercase tracking-widest mb-2">
                       {cert.subtitle}

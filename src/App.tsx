@@ -1,6 +1,5 @@
 import {  Routes, Route } from "react-router-dom";
 
-import CertificacoesPage from "./certifcation/page";
 import FAQ from "./faq/page";
 import Header from "./header/header";
 import Catalogos from "./catalog/page";
@@ -10,6 +9,7 @@ import DetalheServicoPage from "./servicos-detalhe/[slug]/page";
 import Services from "./servicos-informacoes/page";
 import { Facebook, Instagram, Linkedin, MessageCircleMore, Youtube } from "lucide-react";
 import Solucoes from "./solucoes/page";
+import ServicosOutsourcing from "./servicos-camasso/page";
 
 
 
@@ -22,6 +22,7 @@ export default function App() {
         <Route path="/solucoes" element={<Solucoes />} />
         <Route path="/catalog" element={<Catalogos />} />
         <Route path="/help-desk" element={<Suporte />} />
+        <Route path="/servicos-camasso" element={<ServicosOutsourcing />} />
         <Route path="/servicos-informacoes" element={<Services />} />
         <Route path="/servicos/:slug" element={<DetalheServicoPage />} />
         <Route path="/faq" element={<FAQ />} />

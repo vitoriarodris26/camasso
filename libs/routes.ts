@@ -5,7 +5,7 @@ export const ROUTES = {
   SOBRE: "/#quem-somos",
   CONTATO: "https://wa.me/5511975361817?text=Olá",
   SOLUCOES: "/solucoes",
-  SERVICOS: "/servico",
+  SERVICOS: "/servico-camasso",
   CATALOGO: "/catalog",
   SUPORTE: "/help-desk",
   TRABALHE_CONOSCO: "https://www.linkedin.com/company/camasso/jobs/",

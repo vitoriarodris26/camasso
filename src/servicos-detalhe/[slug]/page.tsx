@@ -6,6 +6,7 @@ import { ROUTES } from "../../lib/routes";
 import Header from "../../header/header";
 import Footer from "../../components/footer";
 import ServiceLocations from "../../service-location/page";
+import Hero from "../../components/hero";
 
 export default function DetalheServicoPage() {
   const { slug } = useParams();
@@ -31,7 +32,7 @@ export default function DetalheServicoPage() {
 
   return (
     <main className="bg-white min-h-screen">
-      <Header />
+      <Hero />
 
       <section className="pt-32 pb-6">
         <div className="container mx-auto px-6">
