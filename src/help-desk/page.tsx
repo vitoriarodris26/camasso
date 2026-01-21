@@ -11,7 +11,7 @@ import Hero from "../servicos-informacoes/hero";
 const DRIVERS = [
   { id: 1, title: "Print Utility Beta", size: "3.231 KB", url: "/help-desk/pirnterutility-beta2-35.exe" },
   { id: 6, title: "Print Utility v3-2-63", size: "2.495 KB", url: "/help-desk/printerutility-v3-2-63-set-new-mac-adress.exe" },
-  { id: 2, title: "Gprinter - 2023.1-M-0.exe", size: "1 MB", url: "" },
+  { id: 2, title: "Gprinter - 2023.1-M-0.exe", size: "1 MB", url: "/help-desk/Gprinter_2024.1_M-37 (3).exe" },
   { id: 3, title: "NetWinConfig", size: "676 KB", url: "/help-desk/netwinconfig.exe" },
   { id: 4, title: "FWTool v2.3.18(b)", size: "589 KB", url: "/help-desk/fwtool-v2-3-18.exe" } ,
   { id: 5, title: "ZPLcodebartool", size: "676 KB", url: "/help-desk/zpltool.exe" },
