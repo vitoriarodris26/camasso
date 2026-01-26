@@ -17,7 +17,7 @@ export default function DetalheServicoPage() {
     ? servico.galeria.slice(0, 4) 
     : SERVICOS_CAMASSO.slice(0, 4).map(s => s.image);
 
-  const handleSelectChange = (e) => {
+  const handleSelectChange = (e: { target: { value: any; }; }) => {
     const newSlug = e.target.value;
     navigate(ROUTES.SERVICO_DETALHE(newSlug));
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -102,9 +102,10 @@ export default function DetalheServicoPage() {
               <h2 className="text-xl md:text-2xl font-bold text-[#101828]">
                 {servico.title}: Soluções eficientes para sua empresa.
               </h2>
-              <p className="text-gray-600 leading-relaxed text-sm md:text-base text-justify md:text-left">
-                {servico.desc}
-              </p>
+             <div className="text-gray-600 leading-relaxed whitespace-pre-wrap">
+  {servico.desc}
+</div>
+
 
               <div className="pt-4">
                 <a

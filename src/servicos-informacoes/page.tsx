@@ -91,9 +91,14 @@ export default function Activities() {
                 <h3 className="font-bold text-gray-900 leading-tight mb-3 group-hover:text-green-600 transition-colors text-lg">
                   {servico.title}
                 </h3>
-                <p className="text-gray-500 text-sm line-clamp-2 mb-6 flex-1">
-                  {servico.desc}
-                </p>
+   <div
+  className="text-gray-500 text-sm line-clamp-2 mb-6 flex-1 prose prose-sm max-w-none"
+  dangerouslySetInnerHTML={{ __html: servico.desc }}
+/>
+
+
+
+
                 <div className="flex items-center text-green-600 text-xs font-black gap-2 uppercase tracking-wider border-t pt-4">
                   Ver Solução Completa <ExternalLink size={14} />
                 </div>

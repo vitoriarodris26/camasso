@@ -117,7 +117,7 @@ export const productsContent: Record<string, CategoryData> = {
         title: "Couchê",
         slug: "etiquetas-adesivas",
         tags: ["Acrílico", "Borracha", "Outros"],
-        image: "/produtos/Etiquetas.png",
+           image: "/servicos/etq_couche.png", 
         description: "Fazemos etiquetas personalizadas conforme a necessidade do cliente, com diversos tipos de materiais e acabamentos."
       }
     ]
@@ -217,10 +217,10 @@ export const productsContent: Record<string, CategoryData> = {
   },
   "Telas Interativas": {
     heroImage: "/produtos/aula.png",
-    heroBadge: "Comunicação Visual",
-    highlightLabel: "Telas",
-    highlightTitle: "Interatividade e Engajamento",
-    highlightDesc: "Monitores touch e painéis de gestão para ambientes modernos.",
+    heroBadge: "Tela Interativa",
+    highlightLabel: "Tela interativa",
+    highlightTitle: "Fazemos Outsourcing",
+    highlightDesc: "Gestão completa | Suporte especializado",
     highlightLink: "#",
     items: [
       {
@@ -228,30 +228,23 @@ export const productsContent: Record<string, CategoryData> = {
         slug: "telas-interativas",
         tags: ["Alta Tecnologia"],
         image: "/produtos/tela 43.png",
-        description: "Interface homem-máquina para controlo de produção e processos industriais."
+        description: "Interface homem-máquina para controle de produção industrial."
       },
       {
         title: "Tela interativa 65”, 75” e 86”",
         slug: "telas-interativas",
         tags: ["Versátil"],
         image: "/produtos/tela.png",
-        description: "Exiba métricas em tempo real para a sua equipa com clareza e alto brilho."
+        description: "Exiba métricas em tempo real para a sua equipe com clareza."
       },
-      {
-        title: "Outros",
-        slug: "telas-interativas",
-        tags: ["Tecnologia de ponta", "Qualidade de Imagem"],
-        image: "/produtos/telas.png",
-        description: "Tecnologia para reuniões e treinos dinâmicos com interação simultânea."
-      }
     ]
   },
   "PDV": {
     heroImage: "/produtos/pdvg.png",
     heroBadge: "Ponto de Venda",
     highlightLabel: "PDV",
-    highlightTitle: "Eficiência nas Vendas",
-    highlightDesc: "Equipamentos para frente de loja e atendimento ao público.",
+    highlightTitle: "Fazemos Outsourcing",
+    highlightDesc: "Gestão completa | Suporte especializado",
     highlightLink: "#",
     items: [
       {
@@ -259,14 +252,14 @@ export const productsContent: Record<string, CategoryData> = {
         slug: "automacao-comercial",
         tags: ["Recibo", "Ágil"],
         image: "/produtos/pdv.png",
-        description: "Impressão veloz de talões e pedidos, essencial para qualquer comércio ou restaurante."
+        description: "Impressão veloz de talões e pedidos."
       },
       {
         title: "Ponto de Venda | HD-280F",
         slug: "automacao-comercial",
-        tags: ["Tecnologico", "PDV"],
+        tags: ["Tecnológico"],
         image: "/produtos/pdv impress.png",
-        description: "Leitura rápida em qualquer ângulo, ideal para supermercados e retalho de alto fluxo."
+        description: "Leitura rápida em qualquer ângulo."
       },
     ]
   },
@@ -275,23 +268,25 @@ export const productsContent: Record<string, CategoryData> = {
     heroBadge: "Fazemos Outsourcing",
     highlightLabel: "Totens",
     highlightTitle: "Fazemos Outsourcing",
-    highlightDesc: "Soluções self-service para reduzir custos e melhorar o fluxo de clientes.",
+    highlightDesc: "Gestão completa | Suporte especializado",
     highlightLink: "#",
     items: [
       {
         title: "Totem Pro",
         slug: "totens-autoatendimento",
         tags: ["Moderno"],
-        image: "/produtos/pro.png",
-        description: "Gestão completa | Suporte especializado."
+        image: "/servicos/Totem Pro.png",
+        description: "Hardware de alta performance para operações críticas."
       },
       {
         title: "Totem Smart",
         slug: "totens-autoatendimento",
         tags: ["Inteligente", "Aplicativos"],
-        image: "/produtos/smarts.png",
-        description: "Organize o fluxo de atendimento com emissão de senhas e triagem inicial."
+        image: "/produtos/pro.png",
+        description: "Organize o fluxo de atendimento com emissão de senhas."
       },
     ]
   }
+  
+  
 };

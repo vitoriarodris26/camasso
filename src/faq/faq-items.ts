@@ -21,9 +21,4 @@ export const FAQ_ITEMS = [
     resposta: "Absolutamente. Utilizamos materiais hipoalergênicos e fechamento adesivo 3M inviolável, seguindo rigorosamente os protocolos internacionais de segurança do paciente.",
     Icone: ShieldCheck,
   },
-  {
-    pergunta: "O que é a tecnologia Ribbon Silver?",
-    resposta: "É uma inovação exclusiva da Camasso que permite reduzir o consumo de ribbon em até 70%, gerando economia direta e reduzindo o impacto ambiental da sua produção.",
-    Icone: Zap,
-  },
 ];

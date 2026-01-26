@@ -7,11 +7,20 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+# Dependências e Builds
+node_modules/
+dist/
+dist-ssr/
+dist.zip
+*.zip
+
+# Arquivos pesados e executáveis
+help-desk/
+*.exe
+
+# Configurações Locais
 *.local
-public
+public/
 
 # Editor directories and files
 .vscode/*

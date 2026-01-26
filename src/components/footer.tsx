@@ -1,11 +1,10 @@
-
 import { 
   Facebook, 
   Instagram, 
   Linkedin, 
   Youtube, 
   MapPin, 
-  ShoppingBag, 
+  Menu, 
   Headset, 
   Info, 
   Share2 
@@ -20,18 +19,20 @@ export default function Footer() {
           
           <div>
             <div className="flex items-center gap-2 mb-6 text-slate-900">
-              <ShoppingBag size={20} className="text-green-600" />
-              <h5 className="font-bold text-base">Compre e saiba mais</h5>
+              <Menu size={20} className="text-green-600" />
+              <h5 className="font-bold text-base">Menu</h5>
             </div>
-            <ul className="space-y-3 text-sm">
-              <li><a href="#" className="hover:text-green-600 transition-colors">Todos os produtos</a></li>
-              <li className="pt-2"><a href="#" className="hover:text-green-600 transition-colors">Totem Smart</a></li>
-              <li><a href="#" className="hover:text-green-600 transition-colors">Totem Pro</a></li>
-              <li><a href="#" className="hover:text-green-600 transition-colors">Impressora de Pulseiras</a></li>
-              <li><a href="#" className="hover:text-green-600 transition-colors">Impressora de Etiquetas</a></li>
-              <li><a href="#" className="hover:text-green-600 transition-colors">Impressora de Cupom</a></li>
-              <li><a href="#" className="hover:text-green-600 transition-colors">Tela interativa</a></li>
-            </ul>
+          <ul className="space-y-3 text-sm">
+            <li><a href={ROUTES.HOME} className="hover:text-green-600 transition-colors">Home</a></li>
+            <li><a href={ROUTES.CATALOGO} className="hover:text-green-600 transition-colors">Catálogo</a></li>
+            <li><a href={ROUTES.CONTATO} className="hover:text-green-600 transition-colors">Contato</a></li>
+            <li><a href={ROUTES.SOBRE} className="hover:text-green-600 transition-colors">Sobre Nós</a></li>
+            <li><a href={ROUTES.PRODUTOS} className="hover:text-green-600 transition-colors">Produtos</a></li>
+            <li><a href={ROUTES.SERVICOS} className="hover:text-green-600 transition-colors">Informações</a></li>
+            <li><a href={ROUTES.SERVICOS_CAMASSO} className="hover:text-green-600 transition-colors">Serviços</a></li>
+            <li><a href={ROUTES.SOLUCOES} className="hover:text-green-600 transition-colors">Soluções</a></li>
+          </ul>
+
           </div>
 
           <div>
@@ -67,10 +68,12 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-6 text-slate-900">
               <Info size={20} className="text-green-600" />
-              <h5 className="font-bold text-base">Sobre nós</h5>
+              <h5 className="font-bold text-base">Informações</h5>
             </div>
             <ul className="space-y-3 text-sm">
-              <li><a href={ROUTES.SOBRE} className="hover:text-green-600 transition-colors">Sobre</a></li>
+              <li><a href="#" className="hover:text-green-600 transition-colors">Política de Privacidade</a></li>
+              <li><a href="#" className="hover:text-green-600 transition-colors">Termos de Uso</a></li>
+              <li><a href="#" className="hover:text-green-600 transition-colors">Trabalhe Conosco</a></li>
             </ul>
           </div>
 
