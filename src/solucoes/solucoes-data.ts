@@ -41,7 +41,7 @@ export const solutionsData: Record<string, SolutionData> = {
     title: "Segurança e Precisão Hospitalar",
     description: "A pulseira de identificação térmica é fornecida em rolos de coluna única, com impressão através de impressoras térmicas diretas. Dados variáveis e códigos de barras são impressos diretamente em sua superfície, dispensando a necessidade do uso de ribbon.As pulseiras de classificação de risco coloridas podem vir já impressas com os riscos, conforme as demandas do hospital, em diversas cores.",
     images: [
-      "/servicos/pulseira-identificacao-biomedical-02.jpg",
+      "/servicos/pulseira-hospitalar.jpg",
       "/servicos/pulseira-identificacao-recem-nascido-preco-01.jpg",
       "/servicos/pulseira-identificacao-recem-nascido-preco-02.jpg"
     ],

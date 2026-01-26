@@ -19,9 +19,10 @@ export default function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/solucoes" element={<Solucoes />} />
         <Route path="/catalog" element={<Catalogos />} />
         <Route path="/help-desk" element={<Suporte />} />
+        <Route path="/solucoes/:slug" element={<Solucoes />} />
+        <Route path="/solucoes" element={<Solucoes />} />
         <Route path="/servicos-camasso" element={<ServicosOutsourcing />} />
         <Route path="/servicos-informacoes" element={<Services />} />
         <Route path="/servicos/:slug" element={<DetalheServicoPage />} />
