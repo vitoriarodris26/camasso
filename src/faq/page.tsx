@@ -1,17 +1,18 @@
 "use client";
 
 import { useState } from "react";
-import { ChevronDown, ChevronUp, HelpCircle } from "lucide-react";
+import { ChevronDown, ChevronUp, HelpCircle, MessageCircle, ArrowRight } from "lucide-react";
 import { FAQ_ITEMS } from "./faq-items";
 
 export default function Faq() {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
+  const WHATSAPP_LINK = "https://wa.me/5511975361817?text=Olá! Gostaria de tirar uma dúvida.";
 
   return (
     <section className="py-24 bg-white">
       <div className="container mx-auto px-4 lg:px-24">
-        <div className="flex flex-col items-center text-center mb-12 space-y-4">
-            <span className="border border-green-600 bg-green-100 text-green-600 px-4 py-1.5 rounded-full text-xs font-bold uppercase inline-flex items-center gap-2">
+                <div className="flex flex-col items-center text-center mb-12 space-y-4">
+          <span className="border border-green-600 bg-green-100 text-green-600 px-4 py-1.5 rounded-full text-xs font-bold uppercase inline-flex items-center gap-2">
             <HelpCircle size={16} />
             FAQ
           </span>
@@ -64,6 +65,30 @@ export default function Faq() {
               </div>
             </div>
           ))}
+
+          <div className="mt-12 p-8 border-2 border-dashed border-green-300 rounded-[2rem] bg-green-50/30 flex flex-col md:flex-row items-center justify-between gap-6 transition-all hover:bg-green-50/50">
+            <div className="flex items-center gap-4">
+              <div className="bg-green-500 p-3 rounded-full text-white shadow-lg shadow-green-200">
+                <MessageCircle size={28} />
+              </div>
+              <div className="text-left">
+                <h3 className="text-xl font-bold text-gray-900">Ainda tem dúvidas?</h3>
+                <p className="text-gray-600">Fale diretamente conosco, deixe sua dúvida, elogio ou feedback. É um prazer te atender sempre!</p>
+              </div>
+            </div>
+
+       <a
+  href={WHATSAPP_LINK}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex items-center justify-between bg-[#1db054] hover:bg-[#199949] text-white font-bold py-4 px-6 rounded-2xl shadow-lg transition-transform hover:scale-105 w-[180px] group"
+>
+  <span className="text-left leading-tight text-[17px] max-w-[80px]">
+    Solicitar a Camasso
+  </span>
+  <ArrowRight size={20} className="ml-2" />
+</a>
+          </div>
         </div>
       </div>
     </section>

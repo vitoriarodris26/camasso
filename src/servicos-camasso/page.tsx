@@ -1,10 +1,20 @@
-import { CheckCircle2, Printer, Settings, ShieldCheck, Headphones, BarChart3 } from "lucide-react";
+import { useState } from "react";
+import { 
+  CheckCircle2, Printer, Settings, ShieldCheck, 
+  Headphones, BarChart3, ArrowRight, Lightbulb 
+} from "lucide-react";
+import { useNavigate } from "react-router-dom";
 import Header from "../header/header";
 import Footer from "../components/footer";
 import Hero from "../servicos-informacoes/hero";
 import { ROUTES } from "../lib/routes";
+import { serviceCategories, servicesData } from "./servicos-outsourcing-data";
 
 export default function ServicosOutsourcing() {
+  const [activeTab, setActiveTab] = useState(serviceCategories[0]);
+  const navigate = useNavigate();
+  const content = servicesData[activeTab];
+
   const vantagens = [
     { title: "Equipamentos modernos e econômicos", icon: <Printer size={24} /> },
     { title: "Total suporte técnico e de assistência", icon: <Settings size={24} /> },
@@ -14,62 +24,133 @@ export default function ServicosOutsourcing() {
     { title: "Empresa séria e comprometida", icon: <CheckCircle2 size={24} /> },
   ];
 
-  const impressoras = [
-    "/servicos/servicos-01.jpg",
-    "/servicos/servicos-02.jpg",
-    "/servicos/servicos-03.jpg",
-    "/servicos/servicos-04.jpg",
-    "/servicos/servicos-05.jpg",
-  ];
-
   return (
     <main className="bg-white min-h-screen font-sans">
       <Header />
       <Hero />
 
-      <section className="container mx-auto px-4 py-12 lg:px-24">
-        <div className="flex flex-col md:flex-row justify-between items-center mb-10 gap-6">
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4 w-full md:w-auto">
-            {impressoras.map((img, index) => (
-              <div key={index} className="border border-gray-200 p-4 rounded-lg flex items-center justify-center bg-white shadow-sm">
-                <img src={img} alt={`Modelo ${index}`} className="w-56 h-56 object-contain" />
+      <section className="py-12 lg:py-20" id="servicos">
+        <div className="max-w-7xl mx-auto px-4 md:px-6">
+          
+          {/* Título da Seção */}
+          <div className="text-center mb-10">
+            <span className="border border-green-600 bg-green-100 text-green-600 px-3 py-1 rounded-full text-[11px] font-bold uppercase inline-flex items-center gap-2">
+              <Lightbulb size={14} />
+              Nossos Serviços
+            </span>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mt-4">
+              Tecnologia de ponta para <span className="text-[#008542]">seu outsourcing</span>
+            </h2>
+          </div>
+
+          {/* Menu de Abas Estilo Soluções */}
+          <div className="flex justify-center mb-12 px-4">
+            <div className="flex items-center gap-2 md:gap-4 bg-[#22C55E] p-3 rounded-full overflow-x-auto scrollbar-hide max-w-full shadow-lg">
+              {serviceCategories.map((cat) => {
+                const isActive = activeTab === cat;
+                return (
+                  <button
+                    key={cat}
+                    onClick={() => setActiveTab(cat)}
+                    className={`px-6 py-2.5 rounded-full text-sm font-medium transition-all duration-300 whitespace-nowrap flex flex-col items-center gap-1 ${
+                      isActive 
+                        ? "bg-white text-[#008542] shadow-sm scale-105" 
+                        : "text-white hover:bg-white/10"
+                    }`}
+                  >
+                    {cat}
+                    {isActive && (
+                      <div className="w-8 h-[2px] bg-[#008542] rounded-full animate-in fade-in zoom-in duration-300" />
+                    )}
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+
+          <div className="bg-gray-50 rounded-[3rem] p-6 md:p-10 border border-gray-100 shadow-sm">
+            
+            <div className="mb-8">
+              <div className="bg-[#E8F5EE] text-[#008542] w-fit px-3 py-0.5 rounded-full text-[9px] font-bold uppercase mb-4 tracking-widest border border-[#D1EADF]">
+                Foco em {activeTab}
               </div>
-            ))}
+              <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+                {content.title}
+              </h3>
+              <p className="text-gray-600 text-base leading-relaxed">
+                {content.description}
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+              {content.images.map((img, index) => (
+                <div key={index} className="relative h-56 rounded-2xl overflow-hidden group shadow-sm bg-white border border-gray-100 flex items-center justify-center p-6">
+                  <img
+                    src={img}
+                    className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-110"
+                    alt={`${activeTab} ${index}`}
+                  />
+                </div>
+              ))}
+            </div>
+
+            <div className="bg-white rounded-2xl p-6 md:p-8 mb-8 border border-gray-100 text-gray-700 leading-relaxed text-sm md:text-base shadow-sm text-justify">
+              <div>
+                {content.detailedText.paragraphs.map((paragraph, idx) => (
+                  <p 
+                    key={idx} 
+                    className="mb-4 last:mb-0" 
+                    dangerouslySetInnerHTML={{ __html: paragraph }}
+                  />
+                ))}
+              </div>
+
+              <div className="pt-6 mt-6 border-t border-gray-100">
+                {content.detailedText.footerNotes.map((note, idx) => (
+                  <p 
+                    key={idx} 
+                    className="font-bold text-sm text-gray-900"
+                    dangerouslySetInnerHTML={{ __html: note }}
+                  />
+                ))}
+              </div>
+            </div>
+
+            <div className="flex flex-col lg:flex-row items-center justify-between gap-6 pt-8 border-t border-gray-200">
+              <div className="flex flex-wrap justify-center lg:justify-start gap-6">
+                {content.features.map((feature, idx) => (
+                  <div key={idx} className="flex items-center gap-2 text-gray-700">
+                    <CheckCircle2 className="text-[#00D37F]" size={18} />
+                    <span className="font-bold text-sm uppercase">{feature}</span>
+                  </div>
+                ))}
+              </div>
+
+              <button 
+                onClick={() => navigate(ROUTES.CONTATO)}
+                className="group flex items-center gap-2 bg-[#008542] text-white px-8 py-4 rounded-xl font-bold hover:bg-[#006d36] transition-all active:scale-95 shadow-lg whitespace-nowrap text-sm uppercase tracking-wider"
+              >
+                Solicitar Orçamento
+                <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
+              </button>
+            </div>
           </div>
         </div>
-
-        <div className="max-w-none text-gray-700 leading-relaxed text-justify">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6 uppercase tracking-tight">
-            Conheça a Terceirização de Serviços de Impressão Camasso e Epson
-          </h2>
-          <p className="mb-4">
-            Escritórios, hospitais, academias e outras instituições em <span className="text-green-600">São Paulo</span>, que têm alta demanda de impressão, podem encontrar muitas vantagens ao utilizar a terceirização de serviços de impressão. A terceirização de serviços de impressão conhecida como <span className="text-green-600">outsourcing de impressão</span> é uma forma econômica e prática de fornecer uma estrutura completa de impressão para empresas de todos os portes, mantendo o controle de custos ao mesmo tempo que garante a eficiência dessa operação.
-          </p>
-          <p className="mb-4">
-            Muitas empresas têm percebido a problemática de manter internamente <span className="text-green-600">equipamentos de impressão</span>, porque toda a estrutura de controle, manutenção e escolha técnica é feita pela própria empresa, muitas vezes por profissionais que não são especialistas para tal atividade, resultando em perda de tempo, materiais e recursos.
-          </p>
-          <p className="mb-4">
-            A Camasso do Brasil é uma empresa experiente no ramo de <span className="text-green-600">terceirização de serviços</span> de impressão conhecida como outsourcing de impressão. Localizada em São Paulo, atende clientes com agilidade e qualidade em seu fornecimento de equipamentos <span className="text-green-600">EPSON</span>, marca mundialmente reconhecida por excelência, economia e alta performance, associados ao total suporte em atendimento técnico e funcional da Camasso, o resultado é o melhor da terceirização de serviços de impressão para o seu negócio.
-          </p>
-        </div>
-             <button className="bg-green-600 mt-5 hover:bg-green-700 text-white font-bold py-3 px-8 rounded-full transition-all shadow-lg whitespace-nowrap uppercase text-sm tracking-wide">
-            Solicite um orçamento
-          </button>
       </section>
 
       <section className="bg-gray-50 py-16">
         <div className="container mx-auto px-4 lg:px-24">
           <h2 className="text-2xl font-bold text-gray-900 mb-8 text-center md:text-left uppercase">
-            Vantagens da <span className="text-green-600">Terceirização</span>
+            Vantagens da <span className="text-green-600">Camasso</span>
           </h2>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {vantagens.map((item, index) => (
               <div 
                 key={index}
-                className="bg-white border-2 border-green-500 rounded-2xl p-6 flex items-center gap-4 transition-all group"
+                className="bg-white border-2 border-green-500 rounded-2xl p-6 flex items-center gap-4 transition-all hover:shadow-md"
               >
-                <div className="border-2 border-green-500 rounded-xl p-2 flex items-center justify-center min-w-[50px] h-[50px] bg-white text-green-500 transition-colors">
+                <div className="border-2 border-green-500 rounded-xl p-2 flex items-center justify-center min-w-[50px] h-[50px] bg-white text-green-500">
                   {item.icon}
                 </div>
                 <p className="text-gray-800 font-bold text-sm md:text-base leading-tight">
@@ -78,24 +159,6 @@ export default function ServicosOutsourcing() {
               </div>
             ))}
           </div>
-        </div>
-      </section>
-
-      <section className="container mx-auto px-4 py-16 text-center lg:px-24">
-        <div className="pt-10 border-t border-gray-100">
-          <h3 className="text-xl font-bold text-gray-900 mb-4 uppercase">
-            Para saber mais sobre terceirização de serviços de impressão
-          </h3>
-          <p className="text-gray-600 mb-8">
-            Ligue para <span className="text-gray-900 font-bold">11 5567-7200</span> ou entre em contato clicando no botão abaixo.
-          </p>
-          
-          <a 
-            href={`${ROUTES.CONTATO}?text=Olá! Gostaria de um orçamento`}
-            className="inline-block bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-12 rounded-xl transition-all shadow-xl uppercase tracking-widest text-sm"
-          >
-            Consulte a Camasso
-          </a>
         </div>
       </section>
 
