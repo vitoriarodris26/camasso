@@ -16,12 +16,6 @@ dist.zip
 
 # Arquivos pesados e executáveis
 
-*.exe
-
-# Configurações Locais
-*.local
-public/
-
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
