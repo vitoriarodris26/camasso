@@ -4,12 +4,12 @@ import FAQ from "./faq/page";
 import Header from "./header/header";
 import Catalogos from "./catalog/page";
 import Home from "./Home/home";
-import Suporte from "./help-desk/page";
 import DetalheServicoPage from "./servicos-detalhe/[slug]/page";
 import Services from "./servicos-informacoes/page";
 import { Facebook, Instagram, Linkedin, MessageCircleMore, Youtube } from "lucide-react";
 import Solucoes from "./solucoes/page";
 import ServicosOutsourcing from "./servicos-camasso/page";
+import Suporte from "./help-desk/page";
 
 
 

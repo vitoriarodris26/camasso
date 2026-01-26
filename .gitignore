@@ -15,7 +15,7 @@ dist.zip
 *.zip
 
 # Arquivos pesados e executáveis
-help-desk/
+
 *.exe
 
 # Configurações Locais
