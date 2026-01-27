@@ -1,5 +1,3 @@
-// 1. Removido o import incorreto de 'href'
-// Se precisar de navegação, use Link ou useNavigate em seus componentes.
 
 export const ROUTES = {
   HOME: "/",
@@ -8,8 +6,8 @@ export const ROUTES = {
   SOBRE: "/#quem-somos",
   SOLUCOES: "/solucoes",
   CONTATO: "https://wa.me/5511975361817?text=Olá",
-  CATALOGO: "/catalog",
-  SUPORTE: "/help-desk",
+  CATALOGO: "/catalogos",
+  SUPORTE: "/suporte",
   TRABALHE_CONOSCO: "https://www.linkedin.com/company/camasso/jobs/",
   AREA_CLIENTE: "https://camasso.tomticket.com/",
   SERVICO_DETALHE: (slug) => `/servicos/${slug}`,

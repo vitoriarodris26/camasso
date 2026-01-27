@@ -72,8 +72,8 @@ export default function Faq() {
                 <MessageCircle size={28} />
               </div>
               <div className="text-left">
-                <h3 className="text-xl font-bold text-gray-900">Ainda tem dúvidas?</h3>
-                <p className="text-gray-600">Fale diretamente conosco, deixe sua dúvida, elogio ou feedback. É um prazer te atender sempre!</p>
+                <h3 className="text-xl font-bold text-gray-900">Tem alguma sugestão de melhoria ou algo que não saiu como esperado?</h3>
+                <p className="text-gray-600"></p>Identificou algo que podemos aprimorar? Fale diretamente com a gestão da Camasso. Qualidade e confiança começam pela escuta.
               </div>
             </div>
 
@@ -83,8 +83,8 @@ export default function Faq() {
   rel="noopener noreferrer"
   className="flex items-center justify-between bg-[#1db054] hover:bg-[#199949] text-white font-bold py-4 px-6 rounded-2xl shadow-lg transition-transform hover:scale-105 w-[180px] group"
 >
-  <span className="text-left leading-tight text-[17px] max-w-[80px]">
-    Solicitar a Camasso
+  <span className="text-left leading-tight text-[17px] w-[100px]">
+    Falar com a Direção
   </span>
   <ArrowRight size={20} className="ml-2" />
 </a>

@@ -6,8 +6,8 @@ export const ROUTES = {
   CONTATO: "https://wa.me/5511975361817?text=Olá",
   SOLUCOES: "/solucoes",
   SERVICOS: "/servico-camasso",
-  CATALOGO: "/catalog",
-  SUPORTE: "/help-desk",
+  CATALOGO: "/catalogos",
+  SUPORTE: "/suporte",
   TRABALHE_CONOSCO: "https://www.linkedin.com/company/camasso/jobs/",
   AREA_CLIENTE: "https://camasso.tomticket.com/",
   SERVICO_DETALHE: (slug) => `/servicos/${slug}`
