@@ -1,5 +1,4 @@
 import { useNavigate } from 'react-router-dom';
-
 import { BadgeCheck } from 'lucide-react';
 import { ROUTES } from '../lib/routes';
 
@@ -15,9 +14,11 @@ export default function Hero() {
           loop
           muted
           playsInline
+          aria-hidden="true"
           className="absolute inset-0 w-full h-full object-cover"
         >
           <source src="/assets/videos/intro-camasso.mp4" type="video/mp4" />
+          <track kind="captions" src="" label="No captions" />
         </video>
 
         <div className="absolute inset-0 bg-gradient-to-r from-[#0a2a2a]/90 via-[#0a2a2a]/60 to-[#0a2a2a]/30" />
