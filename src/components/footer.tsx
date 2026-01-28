@@ -27,7 +27,6 @@ export default function Footer() {
             <li><a href={ROUTES.CATALOGO} className="hover:text-green-600 transition-colors">Catálogo</a></li>
             <li><a href={ROUTES.CONTATO} className="hover:text-green-600 transition-colors">Contato</a></li>
             <li><a href={ROUTES.SOBRE} className="hover:text-green-600 transition-colors">Sobre Nós</a></li>
-            <li><a href={ROUTES.PRODUTOS} className="hover:text-green-600 transition-colors">Produtos</a></li>
             <li><a href={ROUTES.SERVICOS} className="hover:text-green-600 transition-colors">Informações</a></li>
             <li><a href={ROUTES.SERVICOS_CAMASSO} className="hover:text-green-600 transition-colors">Serviços</a></li>
             <li><a href={ROUTES.SOLUCOES} className="hover:text-green-600 transition-colors">Soluções</a></li>

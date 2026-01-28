@@ -1,5 +1,4 @@
 import { Routes, Route } from "react-router-dom";
-// Se não tiver instalado, rode: npm install react-helmet-async
 import { Helmet, HelmetProvider } from 'react-helmet-async'; 
 
 import FAQ from "./faq/page";
